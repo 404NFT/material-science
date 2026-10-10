@@ -1,0 +1,361 @@
+
+     Program PWSCF v.7.3.1 starts on  8Jul2026 at 20:25:27 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     8 processors
+
+     MPI processes distributed on     1 nodes
+     0 MiB available memory on the printing compute node when the environment starts
+
+     Reading input from bands_ref.in
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  4
+     file Cu.upf: wavefunction(s)  4S 3D renormalized
+     file Cu.upf: wavefunction(s)  4S 3D renormalized
+     file F.upf: wavefunction(s)  2S 2P renormalized
+     file Mg.upf: wavefunction(s)  2P renormalized
+     file O.upf: wavefunction(s)  2P renormalized
+
+     Atomic positions and unit cell read from directory:
+     ./out_r/amag.save/
+
+
+     R & G space division:  proc/nbgrp/npool/nimage =       8
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     a serial algorithm will be used
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         294     147     43                15134     5346     838
+     Max         295     148     44                15136     5349     839
+     Sum        2357    1183    345               121079    42789    6707
+
+     Using Slab Decomposition
+
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =       6.3128  a.u.
+     unit-cell volume          =     681.9999 (a.u.)^3
+     number of atoms/cell      =            9
+     number of atomic types    =            5
+     number of electrons       =        70.00
+     number of Kohn-Sham states=           72
+     kinetic-energy cutoff     =      60.0000  Ry
+     charge density cutoff     =     480.0000  Ry
+     Exchange-correlation= SLA  PW   PBX  PBC
+                           (   1   4   3   4   0   0   0)
+     Hubbard projectors: ortho-atomic
+     Hubbard parameters of DFT+U (Dudarev formulation) in eV:
+     U(Cu1-3d) =  6.0000
+     U(Cu2-3d) =  6.0000
+
+     Internal variables: lda_plus_u =T, lda_plus_u_kind = 0
+
+     celldm(1)=   6.312821  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   0.971153   0.000000   0.238456 )  
+               a(2) = (   0.144502   1.425094  -0.588511 )  
+               a(3) = (  -0.942304  -0.030790   1.740875 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  0.908476  0.111770  0.493718 )  
+               b(2) = ( -0.002708  0.706538  0.011030 )  
+               b(3) = ( -0.125354  0.223539  0.510526 )  
+
+
+     PseudoPot. # 1 for Cu read from file:
+     /Users/a404/Documents/materialsScience/altermag/pseudos/Cu.upf
+     MD5 check sum: cfffd1f38ee05704b3e17f46f1730a6f
+     Pseudo is Projector augmented-wave + core cor, Zval = 11.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1199 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 2 for Cu read from file:
+     /Users/a404/Documents/materialsScience/altermag/pseudos/Cu.upf
+     MD5 check sum: cfffd1f38ee05704b3e17f46f1730a6f
+     Pseudo is Projector augmented-wave + core cor, Zval = 11.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1199 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 3 for F  read from file:
+     /Users/a404/Documents/materialsScience/altermag/pseudos/F.upf
+     MD5 check sum: 66d718ea72839a4268ab2a9540e8cdd4
+     Pseudo is Projector augmented-wave + core cor, Zval =  7.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1105 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 4 for Mg read from file:
+     /Users/a404/Documents/materialsScience/altermag/pseudos/Mg.upf
+     MD5 check sum: fda14e0d92a6a9a5ebed782e5a4b3067
+     Pseudo is Projector augmented-wave + core cor, Zval = 10.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1129 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 5 for O  read from file:
+     /Users/a404/Documents/materialsScience/altermag/pseudos/O.upf
+     MD5 check sum: 833c495a5d0f9b75bf046115549bffff
+     Pseudo is Projector augmented-wave + core cor, Zval =  6.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: BESSEL
+     Using radial grid of 1095 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     atomic species   valence    mass     pseudopotential
+     Cu1              11.00    63.54600     Cu( 1.00)
+     Cu2              11.00    63.54600     Cu( 1.00)
+     F                 7.00    18.99840     F ( 1.00)
+     Mg               10.00    24.30500     Mg( 1.00)
+     O                 6.00    15.99940     O ( 1.00)
+
+     Starting magnetic structure 
+     atomic species   magnetization
+     Cu1             0.500
+     Cu2            -0.500
+     F               0.000
+     Mg              0.000
+     O               0.000
+
+     No symmetry found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1        Mg     tau(   1) = (   0.5070608   0.2121845   0.0317273  )
+         2        Cu2    tau(   2) = (   0.2380120   0.6676206   1.1274787  )
+         3        Cu1    tau(   3) = (  -0.0254639   1.1146355   0.1037087  )
+         4        O      tau(   4) = (  -0.0052253   0.5367344   0.0212803  )
+         5        O      tau(   5) = (   0.1249316   0.3267540   1.5880174  )
+         6        O      tau(   6) = (  -0.2956484   0.9897600   1.2040841  )
+         7        O      tau(   7) = (   0.5491578   1.1938406  -0.1397234  )
+         8        F      tau(   8) = (   0.3577435   0.9721040   0.6398480  )
+         9        F      tau(   9) = (  -0.2007982   0.2617096   0.8177885  )
+
+     number of k points=   120  Gaussian smearing, width (Ry)=  0.0100
+
+     Number of k-points >= 100: set verbosity='high' to print them.
+
+     Dense  grid:   121079 G-vectors     FFT dimensions: (  45,  72,  90)
+
+     Smooth grid:    42789 G-vectors     FFT dimensions: (  32,  50,  64)
+
+     Estimated max dynamical RAM per process >      63.07 MB
+
+     Estimated total dynamical RAM >     504.56 MB
+
+     Check: negative core charge=   -0.000004
+     Generating pointlists ...
+     new r_m :   0.2409 (alat units)  1.5210 (a.u.) for type    1
+     new r_m :   0.2409 (alat units)  1.5208 (a.u.) for type    2
+     new r_m :   0.2420 (alat units)  1.5275 (a.u.) for type    3
+     new r_m :   0.2502 (alat units)  1.5794 (a.u.) for type    4
+     new r_m :   0.1832 (alat units)  1.1564 (a.u.) for type    5
+
+     The potential is recalculated from file :
+     ./out_r/amag.save/charge-density
+
+
+     STARTING HUBBARD OCCUPATIONS:
+
+     =================== HUBBARD OCCUPATIONS ===================
+     ------------------------ ATOM    2 ------------------------
+     Tr[ns(  2)] (up, down, total) =   4.31912  4.97734  9.29646
+     Atomic magnetic moment for atom   2 =  -0.65823
+     SPIN  1
+     eigenvalues:
+       0.335  0.994  0.995  0.997  0.999
+     eigenvectors (columns):
+       0.532  0.119 -0.739  0.096  0.383
+       0.311 -0.257 -0.283 -0.196 -0.848
+       0.717 -0.235  0.558  0.337  0.070
+      -0.271 -0.067 -0.202  0.912 -0.222
+       0.180  0.927  0.144  0.085 -0.283
+     occupation matrix ns (before diag.):
+       0.809 -0.110 -0.252  0.095 -0.064
+      -0.110  0.934 -0.148  0.056 -0.036
+      -0.252 -0.148  0.656  0.129 -0.085
+       0.095  0.056  0.129  0.948  0.033
+      -0.064 -0.036 -0.085  0.033  0.973
+     SPIN  2
+     eigenvalues:
+       0.991  0.994  0.996  0.998  0.999
+     eigenvectors (columns):
+      -0.323  0.137 -0.839  0.179 -0.376
+      -0.251 -0.305 -0.358 -0.151  0.832
+      -0.798 -0.221  0.391  0.393 -0.082
+       0.398 -0.080 -0.075  0.884  0.218
+      -0.194  0.913  0.094  0.096  0.334
+     occupation matrix ns (before diag.):
+       0.996 -0.001 -0.001  0.001 -0.001
+      -0.001  0.997 -0.001  0.001  0.001
+      -0.001 -0.001  0.993  0.002 -0.000
+       0.001  0.001  0.002  0.996  0.001
+      -0.001  0.001 -0.000  0.001  0.995
+     ------------------------ ATOM    3 ------------------------
+     Tr[ns(  3)] (up, down, total) =   4.97744  4.31979  9.29724
+     Atomic magnetic moment for atom   3 =   0.65765
+     SPIN  1
+     eigenvalues:
+       0.991  0.994  0.996  0.998  0.999
+     eigenvectors (columns):
+      -0.440  0.370  0.479 -0.643  0.163
+       0.031 -0.810  0.258 -0.385 -0.359
+      -0.087  0.095 -0.803 -0.540 -0.219
+      -0.893 -0.210 -0.144  0.359 -0.093
+      -0.022 -0.393 -0.197 -0.133  0.888
+     occupation matrix ns (before diag.):
+       0.995  0.001  0.000 -0.002  0.001
+       0.001  0.996  0.001 -0.000 -0.001
+       0.000  0.001  0.996 -0.001 -0.000
+      -0.002 -0.000 -0.001  0.992 -0.001
+       0.001 -0.001 -0.000 -0.001  0.998
+     SPIN  2
+     eigenvalues:
+       0.335  0.994  0.995  0.997  0.999
+     eigenvectors (columns):
+      -0.382  0.351  0.551  0.627  0.183
+       0.057 -0.790  0.225  0.397 -0.405
+      -0.325  0.109 -0.776  0.485 -0.215
+      -0.859 -0.208  0.081 -0.447 -0.108
+      -0.080 -0.444 -0.194  0.118  0.863
+     occupation matrix ns (before diag.):
+       0.899  0.015 -0.082 -0.217 -0.019
+       0.015  0.993  0.013  0.032  0.001
+      -0.082  0.013  0.926 -0.184 -0.018
+      -0.217  0.032 -0.184  0.508 -0.046
+      -0.019  0.001 -0.018 -0.046  0.993
+
+     Number of occupied Hubbard levels =   18.5937
+
+     Atomic wfc used for Hubbard projectors are orthogonalized
+
+     Starting wfcs are   47 randomized atomic wfcs +   25 random wfcs
+     Checking if some PAW data can be deallocated... 
+
+     Band Structure Calculation
+     Davidson diagonalization with overlap
+
+     ethr =  1.43E-10,  avg # of iterations = 37.0
+
+     total cpu time spent up to now is     1066.9 secs
+
+     End of band structure calculation
+
+     Number of k-points >= 100: set verbosity='high' to print the bands.
+
+     Writing all to output data dir ./out_r/amag.save/ :
+     XML data file, pseudopotentials, collected wavefunctions
+
+     init_run     :      1.48s CPU      1.51s WALL (       1 calls)
+     electrons    :    192.76s CPU   1065.04s WALL (       1 calls)
+
+     Called by init_run:
+     wfcinit      :      0.76s CPU      0.77s WALL (       1 calls)
+     potinit      :      0.30s CPU      0.30s WALL (       1 calls)
+     hinit0       :      0.34s CPU      0.34s WALL (       1 calls)
+
+     Called by electrons:
+     c_bands      :    192.75s CPU   1065.04s WALL (       1 calls)
+     v_of_rho     :      0.03s CPU      0.03s WALL (       1 calls)
+     newd         :      0.07s CPU      0.07s WALL (       1 calls)
+     PAW_pot      :      0.17s CPU      0.17s WALL (       1 calls)
+
+     Called by c_bands:
+     init_us_2    :      0.11s CPU      0.11s WALL (     480 calls)
+     cegterg      :    187.01s CPU   1059.15s WALL (     527 calls)
+
+     Called by *egterg:
+     cdiaghg      :     50.07s CPU     50.49s WALL (    9123 calls)
+     h_psi        :     92.07s CPU    963.51s WALL (    9650 calls)
+     s_psi        :      4.80s CPU      4.83s WALL (    9890 calls)
+     g_psi        :      0.26s CPU      0.27s WALL (    8883 calls)
+
+     Called by h_psi:
+     h_psi:calbec :      7.37s CPU      7.43s WALL (    9650 calls)
+     vloc_psi     :     73.91s CPU    945.21s WALL (    9650 calls)
+     add_vuspsi   :      5.18s CPU      5.21s WALL (    9650 calls)
+     vhpsi        :      5.31s CPU      5.34s WALL (    9650 calls)
+
+     General routines
+     calbec       :      9.65s CPU      9.73s WALL (   19540 calls)
+     fft          :      0.23s CPU      0.23s WALL (      23 calls)
+     ffts         :      0.09s CPU      0.09s WALL (       2 calls)
+     fftw         :     59.55s CPU     60.62s WALL (  741288 calls)
+     interpolate  :      0.09s CPU      0.09s WALL (       2 calls)
+     davcio       :      0.00s CPU      0.11s WALL (     960 calls)
+
+     Parallel routines
+
+     Hubbard U routines
+     vhpsi        :      5.31s CPU      5.34s WALL (    9650 calls)
+
+     PWSCF        :   3m15.33s CPU  17m48.07s WALL
+
+
+   This run was terminated on:  20:43:15   8Jul2026            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_UNDERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_UNDERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_UNDERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG IEEE_DIVIDE_BY_ZERO IEEE_UNDERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_UNDERFLOW_FLAG

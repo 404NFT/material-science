@@ -1,0 +1,150 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 06/19/2026
+# from a file submitted by S. Goswami 
+
+data_5yOhtAoR
+_audit_creation_date            2026-06-19
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+_chemical_name_systematic
+;
+;
+_chemical_name_common                    ?
+_chemical_formula_moiety                 ?
+_chemical_formula_structural             ?
+_chemical_formula_analytical             ?
+_chemical_formula_iupac                  ?
+_chemical_formula_sum                    "Co1 Fe1 Sb1 V1"
+_chemical_formula_weight                 ?
+_chemical_melting_point                  ?
+_chemical_compound_source                ?
+_chemical_absolute_configuration         ?
+
+
+_citation_journal_abbrev        "Physical Review B"
+_citation_journal_volume        113
+_citation_page_first            .
+_citation_page_last             .
+_citation_article_id            174421
+_citation_year                  2026
+_citation_DOI                   10.1103/t8wx-zrgy
+
+loop_
+_citation_author_name
+"Jadupati Nag"
+"Srikanta Goswami"
+"Yukimi Nishioka"
+"Yasumasa Takagi"
+"Akira Yasui"
+"Som Datta Kaushik"
+"P. D. Babu"
+"Aftab Alam"
+"K. G. Suresh"
+"Akio Kimura"
+
+_temperature_position_structure         .
+_temperature_atom_positions             .
+_temperature_non-magn_atom_positions    .
+_temperature_cell_parameters            .
+
+_atomic_positions_source_database_code_ICSD  .
+_atomic_positions_source_other               .
+
+_transition_temperature     850
+_experiment_temperature     3
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mGM5 3 3 special primary 5 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NPD
+;
+
+_active_magnetic_irreps_details
+;
+1k commensurate magnetic structure
+3-dim irrep along a special direction
+FM
+;
+
+_parent_space_group.name_H-M_alt  "F -4 3 m"
+_parent_space_group.IT_number              216
+_parent_space_group.transform_Pp_abc  'a,b,c;0,0,0'
+
+loop_
+_parent_propagation_vector.id
+_parent_propagation_vector.kxkykz
+k1 [0 0 0]
+
+_parent_space_group.child_transform_Pp_abc  'a,b,c;0,0,0'
+_space_group_magn.transform_BNS_Pp_abc  '1/2a-1/2c,-1/2a+1/2b,a+b+c;0,0,0'
+
+
+_space_group_magn.number_BNS  "No. 160.67"
+_space_group_magn.name_BNS  "R 3 m'"
+_space_group_magn.point_group_name  "3 m'"
+_space_group_magn.point_group_number  	"19.3.70"
+_cell_length_a                 5.8016(13)
+_cell_length_b                 5.8016(13)
+_cell_length_c                 5.8016(13)
+_cell_angle_alpha              90
+_cell_angle_beta               90
+_cell_angle_gamma              90
+
+loop_
+_space_group_symop_magn_operation.id
+_space_group_symop_magn_operation.xyz
+1 x,y,z,+1 
+2 z,x,y,+1 
+3 y,z,x,+1 
+4 y,x,z,-1 
+5 x,z,y,-1 
+6 z,y,x,-1 
+
+loop_
+_space_group_symop_magn_centering.id
+_space_group_symop_magn_centering.xyz
+1 x,y,z,+1 
+2 x,y+1/2,z+1/2,+1 
+3 x+1/2,y,z+1/2,+1 
+4 x+1/2,y+1/2,z,+1 
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Co Co 0.25 0.25 0.25 1
+Fe Fe 0.75 0.75 0.75 0.875
+Fe1 Fe 0.5 0.5 0.5 0.125
+V V 0.5 0.5 0.5 0.875
+V1 V 0.75 0.75 0.75 0.125
+Sb Sb 0 0 0 1
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+_atom_site_moment.magnitude
+_atom_site_moment.spherical_azimuthal
+_atom_site_moment.spherical_polar
+Co 0.8(5) 0.8(5) 0.8(5) mx,mx,mx 1.3(9) ? ?
+Fe 0.4(3) 0.4(3) 0.4(3) mx,mx,mx 0.7(4) ? ?
+Fe1 1.4(5) 1.4(5) 1.4(5) mx,mx,mx 2.5(9) ? ?
+V 1.4(5) 1.4(5) 1.4(5) mx,mx,mx 2.5(9) ? ?
+V1 0.4(3) 0.4(3) 0.4(3) mx,mx,mx 0.7(4) ? ?
+

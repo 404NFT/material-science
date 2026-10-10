@@ -1,0 +1,19 @@
+  featurized 5000/21263
+  featurized 10000/21263
+  featurized 15000/21263
+  featurized 20000/21263
+featurized 21263 formulas
+random 10-fold CV (interpolation):
+  RMSE   9.51 K   MAE   5.46 K   R2 0.923
+  precision of 'predicted Tc>20K' flag: 0.93
+grouped CV by chemical system (extrapolation):
+  RMSE  12.95 K   MAE   7.98 K   R2 0.857
+  precision of 'predicted Tc>20K' flag: 0.91
+random 10-fold CV (interpolation):
+  RMSE   9.51 K   MAE   5.46 K   R2 0.923
+  precision of 'predicted Tc>20K' flag: 0.93
+grouped CV by chemical system (extrapolation):
+  RMSE  12.95 K   MAE   7.98 K   R2 0.857
+  precision of 'predicted Tc>20K' flag: 0.91
+
+model saved to /Users/a404/Documents/materialsScience/supercon/tc_model.joblib

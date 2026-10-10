@@ -1,0 +1,10 @@
+     convergence NOT achieved after 400 iterations: stopping
+[watch] density present:      total magnetization       =    -0.00 Bohr mag/cell
+[watch] bands DONE
+candidate     net_mom  max(meV)    per-k range    %k  verdict
+mp-1048863      -0.00       205    31-205    100%  ALTERMAGNET
+mp-1272506      -0.00       232   132-232    100%  ALTERMAGNET
+mp-1277787      -0.03       366   105-366    100%  ALTERMAGNET
+mp-19266        +0.00       125    31-125    100%  ALTERMAGNET
+
+4 confirmed altermagnet(s). Wrote qe_results.csv

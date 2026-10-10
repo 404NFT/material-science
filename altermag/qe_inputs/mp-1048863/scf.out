@@ -1,0 +1,283 @@
+
+     Program PWSCF v.7.3.1 starts on  3Jul2026 at 14:46:46 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on     8 processors
+
+     MPI processes distributed on     1 nodes
+     0 MiB available memory on the printing compute node when the environment starts
+
+     Reading input from scf.in
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  4
+     file Ca.upf: wavefunction(s)  3S renormalized
+     file Cr.upf: wavefunction(s)  3S 3P 3D renormalized
+     file Cr.upf: wavefunction(s)  3S 3P 3D renormalized
+     file La.upf: wavefunction(s)  5S 5D 4F renormalized
+     file Mo.upf: wavefunction(s)  4S 4D renormalized
+     file Mo.upf: wavefunction(s)  4S 4D renormalized
+     file O.upf: wavefunction(s)  2P renormalized
+
+     R & G space division:  proc/nbgrp/npool/nimage =       8
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     a serial algorithm will be used
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         406     203     57                24288     8584    1278
+     Max         407     204     58                24292     8588    1280
+     Sum        3253    1631    457               194321    68695   10229
+
+     Using Slab Decomposition
+
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      10.4646  a.u.
+     unit-cell volume          =    1683.9661 (a.u.)^3
+     number of atoms/cell      =           20
+     number of atomic types    =            7
+     number of electrons       =       170.00
+     number of Kohn-Sham states=          102
+     kinetic-energy cutoff     =      45.0000  Ry
+     charge density cutoff     =     360.0000  Ry
+     scf convergence threshold =      2.0E-04
+     mixing beta               =       0.1000
+     number of iterations used =            8  local-TF  mixing
+     Exchange-correlation= SLA  PW   PBX  PBC
+                           (   1   4   3   4   0   0   0)
+     Hubbard projectors: ortho-atomic
+     Hubbard parameters of DFT+U (Dudarev formulation) in eV:
+     U(Cr1-3d) =  3.5000
+     U(Cr2-3d) =  3.5000
+     U(Mo1-4d) =  2.5000
+     U(Mo2-4d) =  2.5000
+
+     Internal variables: lda_plus_u =T, lda_plus_u_kind = 0
+
+     celldm(1)=  10.464648  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   0.999998   0.001868  -0.000797 )  
+               a(2) = (   0.001933   1.036361   0.000406 )  
+               a(3) = (  -0.003142   0.000564   1.417920 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000007 -0.001866  0.002217 )  
+               b(2) = ( -0.001803  0.964918 -0.000388 )  
+               b(3) = (  0.000563 -0.000277  0.705260 )  
+
+
+     PseudoPot. # 1 for Ca read from file:
+     /Users/a404/Documents/materialsScience/altermag/pseudos/Ca.upf
+     MD5 check sum: 1e11ab70c77b02a7d7d676f41d47b751
+     Pseudo is Projector augmented-wave + core cor, Zval = 10.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.4.1
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1169 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 2 for Cr read from file:
+     /Users/a404/Documents/materialsScience/altermag/pseudos/Cr.upf
+     MD5 check sum: 198f1a2427a48552563eee314eba32ba
+     Pseudo is Projector augmented-wave + core cor, Zval = 14.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1183 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 3 for Cr read from file:
+     /Users/a404/Documents/materialsScience/altermag/pseudos/Cr.upf
+     MD5 check sum: 198f1a2427a48552563eee314eba32ba
+     Pseudo is Projector augmented-wave + core cor, Zval = 14.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1183 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 4 for La read from file:
+     /Users/a404/Documents/materialsScience/altermag/pseudos/La.upf
+     MD5 check sum: 6e6ac421535d279511fd22156ed99225
+     Pseudo is Projector augmented-wave + core cor, Zval = 11.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.2.2
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1253 points,  8 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+                l(7) =   3
+                l(8) =   3
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 5 for Mo read from file:
+     /Users/a404/Documents/materialsScience/altermag/pseudos/Mo.upf
+     MD5 check sum: 4396e0c640fcce5c25f020efccf1ab12
+     Pseudo is Projector augmented-wave + core cor, Zval = 14.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1229 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 6 for Mo read from file:
+     /Users/a404/Documents/materialsScience/altermag/pseudos/Mo.upf
+     MD5 check sum: 4396e0c640fcce5c25f020efccf1ab12
+     Pseudo is Projector augmented-wave + core cor, Zval = 14.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1229 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 7 for O  read from file:
+     /Users/a404/Documents/materialsScience/altermag/pseudos/O.upf
+     MD5 check sum: 833c495a5d0f9b75bf046115549bffff
+     Pseudo is Projector augmented-wave + core cor, Zval =  6.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: BESSEL
+     Using radial grid of 1095 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+     Q(r) pseudized with 0 coefficients 
+
+
+     atomic species   valence    mass     pseudopotential
+     Ca               10.00    40.07800     Ca( 1.00)
+     Cr1              14.00    51.99610     Cr( 1.00)
+     Cr2              14.00    51.99610     Cr( 1.00)
+     La               11.00   138.90550     La( 1.00)
+     Mo1              14.00    95.94000     Mo( 1.00)
+     Mo2              14.00    95.94000     Mo( 1.00)
+     O                 6.00    15.99940     O ( 1.00)
+
+     Starting magnetic structure 
+     atomic species   magnetization
+     Ca              0.000
+     Cr1             0.500
+     Cr2            -0.500
+     La              0.000
+     Mo1             0.500
+     Mo2            -0.500
+     O               0.000
+
+     No symmetry found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1        Ca     tau(   1) = (   0.4846500   0.4698358   1.0642640  )
+         2        Ca     tau(   2) = (   0.9841897   0.0521390   0.3547483  )
+         3        La     tau(   3) = (   0.0132673   0.9934656   1.0639868  )
+         4        La     tau(   4) = (   0.5128904   0.5621834   0.3545606  )
+         5        Cr2    tau(   5) = (  -0.0018280   0.5192850   1.4165348  )
+         6        Cr1    tau(   6) = (   0.5010110   1.0368116   0.7078848  )
+         7        Mo2    tau(   7) = (   0.9993247   0.5181075   0.7091053  )
+         8        Mo1    tau(   8) = (   0.4995803   0.0031713   0.0008788  )
+         9        O      tau(   9) = (   0.0876748   0.4855271   0.3535284  )
+        10        O      tau(  10) = (   0.5860067   0.0353244   1.0623306  )
+        11        O      tau(  11) = (   0.2054772   0.2238046   1.3515054  )
+        12        O      tau(  12) = (   0.7066236   0.2959490   0.6417047  )
+        13        O      tau(  13) = (   0.2098959   0.2096948   0.7740354  )
+        14        O      tau(  14) = (   0.7127247   0.3107112   0.0644573  )
+        15        O      tau(  15) = (   0.2902792   0.7279390   1.3506974  )
+        16        O      tau(  16) = (   0.7936664   0.8292323   0.6416096  )
+        17        O      tau(  17) = (   0.2956017   0.7353768   0.7783907  )
+        18        O      tau(  18) = (   0.7968212   0.8227751   0.0678543  )
+        19        O      tau(  19) = (   0.4061048   1.0064329   0.3547483  )
+        20        O      tau(  20) = (   0.9039239   0.5501589   1.0624624  )
+
+     number of k points=     8  Gaussian smearing, width (Ry)=  0.0100
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0833333
+        k(    2) = (  -0.0002813   0.0001387  -0.3526299), wk =   0.0833333
+        k(    3) = (   0.0009014  -0.4824592   0.0001938), wk =   0.0833333
+        k(    4) = (   0.0006201  -0.4823205  -0.3524361), wk =   0.0833333
+        k(    5) = (   0.3333358  -0.0006221   0.0007389), wk =   0.1666667
+        k(    6) = (   0.3330544  -0.0004833  -0.3518910), wk =   0.1666667
+        k(    7) = (   0.3342372  -0.4830813   0.0009327), wk =   0.1666667
+        k(    8) = (   0.3339559  -0.4829426  -0.3516972), wk =   0.1666667
+
+     Dense  grid:   194321 G-vectors     FFT dimensions: (  64,  72,  90)
+
+     Smooth grid:    68695 G-vectors     FFT dimensions: (  45,  48,  64)
+
+     Estimated max dynamical RAM per process >     310.66 MB
+
+     Estimated total dynamical RAM >       2.43 GB
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine  ylmr2 (15):
+     l too large, or wrong number of Ylm required
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+  Proc: [[883,1],0]
+  Errorcode: 15
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+prterun has exited due to process rank 0 with PID 0 on node admins-Mac-Studio calling
+"abort". This may have caused other processes in the application to be
+terminated by signals sent by prterun (as reported here).
+--------------------------------------------------------------------------
+ 

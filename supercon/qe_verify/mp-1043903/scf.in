@@ -1,0 +1,71 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'amag'
+  outdir = './out'
+  pseudo_dir = '/Users/a404/Documents/materialsScience/altermag/pseudos'
+  tprnfor = .true.
+/
+&SYSTEM
+  ibrav = 0
+  nat = 20
+  ntyp = 7
+  ecutwfc = 50.0
+  ecutrho = 400.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.01
+  nspin = 2
+  starting_magnetization(1) = 0.00
+  starting_magnetization(2) = 0.50
+  starting_magnetization(3) = -0.50
+  starting_magnetization(4) = 0.50
+  starting_magnetization(5) = -0.50
+  starting_magnetization(6) = 0.00
+  starting_magnetization(7) = 0.00
+/
+&ELECTRONS
+  conv_thr = 1.0d-7
+  mixing_beta = 0.2
+  mixing_mode = 'local-TF'
+  electron_maxstep = 250
+/
+ATOMIC_SPECIES
+  Ca  40.0780  Ca.upf
+  Cu1  63.5460  Cu.upf
+  Cu2  63.5460  Cu.upf
+  Fe1  55.8450  Fe.upf
+  Fe2  55.8450  Fe.upf
+  La  138.9055  La.upf
+  O  15.9994  O.upf
+CELL_PARAMETERS angstrom
+  0.0000950000 5.5249040000 0.0289560000
+  0.0003550000 0.0412100000 7.6150680000
+  5.5313630000 0.0000930000 0.0002610000
+ATOMIC_POSITIONS crystal
+  Ca  0.5087800000 0.2505430000 0.5432920000
+  Ca  0.0088210000 0.7504500000 0.9566830000
+  La  0.9939820000 0.2494270000 0.0307230000
+  La  0.4941010000 0.7495090000 0.4692030000
+  Fe2  0.4993110000 0.5004640000 0.9998520000
+  Fe1  0.9992780000 0.0004580000 0.5001130000
+  Cu2  0.5002940000 0.9996110000 0.0008760000
+  Cu1  0.0003970000 0.4996360000 0.4990770000
+  O  0.5822880000 0.7553140000 0.0167270000
+  O  0.0821340000 0.2554110000 0.4832250000
+  O  0.2096360000 0.9582900000 0.2178890000
+  O  0.7096410000 0.4582930000 0.2822080000
+  O  0.2169990000 0.5422980000 0.2115980000
+  O  0.7169700000 0.0422760000 0.2883370000
+  O  0.9279270000 0.7445240000 0.5209060000
+  O  0.4278240000 0.2445240000 0.9791980000
+  O  0.2843560000 0.5365720000 0.7229990000
+  O  0.7842950000 0.0365880000 0.7770320000
+  O  0.2764290000 0.9628780000 0.7175850000
+  O  0.7765300000 0.4629390000 0.7824750000
+K_POINTS automatic
+  4 3 4 0 0 0
+HUBBARD (ortho-atomic)
+U Cu1-3d 6.0
+U Cu2-3d 6.0
+U Fe1-3d 4.5
+U Fe2-3d 4.5

@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Python environments / caches
+**/.venv/
+**/venv/
+__pycache__/
+*.pyc
+
+# Toolchains and builds (rebuild with altermag/build_qe_native.sh)
+altermag/.mamba/
+altermag/.qe-src/
+altermag/qe-env/
+altermag/qe-native/
+altermag/bin/
+altermag/.claude/
+
+# Quantum ESPRESSO scratch (wavefunctions, charge density, Hubbard/mixing files).
+# Keep the *.in / *.out text files; drop the binary run directories.
+**/out/
+**/out_*/
+*.save/
+*.wfc*
+*.hub*
+*.mix*
+
+# Pseudopotentials (pslibrary/SSSP, re-downloadable)
+altermag/pseudos/
+
+# Large regenerable data
+supercon/data/                # UCI superconductivity dataset (Hamidieh 2018)
+supercon/train_features.csv   # cache, rebuilt by train_tc.py

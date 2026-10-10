@@ -1,0 +1,7 @@
+Ag.upf
+Cu.upf
+Li.upf
+Mn.upf
+Ni.upf
+O.upf
+V.upf

@@ -1,0 +1,56 @@
+[09:53:19] mp-759163 SCF start
+     convergence has been achieved in  13 iterations
+[09:53:35] mp-759163 density ok.      total magnetization       =     0.00 Bohr mag/cell
+[09:53:35] mp-759163 bands start
+[09:56:16] mp-759163 bands DONE
+[09:56:16] mp-1277241 SCF start
+     convergence has been achieved in  16 iterations
+[09:56:54] mp-1277241 density ok.      total magnetization       =     0.00 Bohr mag/cell
+[09:56:54] mp-1277241 bands start
+[10:02:01] mp-1277241 bands DONE
+[10:02:01] mp-2240166 SCF start
+     convergence has been achieved in  12 iterations
+[10:02:14] mp-2240166 density ok.      total magnetization       =    -0.00 Bohr mag/cell
+[10:02:14] mp-2240166 bands start
+[10:05:06] mp-2240166 bands DONE
+[10:05:06] mp-684727 SCF start
+     convergence has been achieved in 389 iterations
+[10:36:17] mp-684727 density ok.      total magnetization       =     1.70 Bohr mag/cell
+[10:36:17] mp-684727 bands start
+[14:04:22] mp-684727 bands DONE
+[14:04:22] mp-1274449 SCF start
+     convergence has been achieved in  17 iterations
+[14:06:19] mp-1274449 density ok.      total magnetization       =    -0.00 Bohr mag/cell
+[14:06:19] mp-1274449 bands start
+[14:50:19] mp-1274449 bands DONE
+[14:50:19] mp-756665 SCF start
+     convergence has been achieved in  16 iterations
+[14:52:12] mp-756665 density ok.      total magnetization       =    -0.00 Bohr mag/cell
+[14:52:12] mp-756665 bands start
+[15:16:52] mp-756665 bands DONE
+[15:16:52] mp-1580697 SCF start
+     convergence NOT achieved after 400 iterations: stopping
+[17:32:39] mp-1580697 density ok.      total magnetization       =     0.09 Bohr mag/cell
+[17:32:39] mp-1580697 bands start
+[19:06:02] mp-1580697 bands DONE
+[19:06:02] mp-2674749 SCF start
+     convergence has been achieved in  14 iterations
+[19:16:17] mp-2674749 density ok.      total magnetization       =     0.01 Bohr mag/cell
+[19:16:17] mp-2674749 bands start
+[21:48:44] mp-2674749 bands DONE
+candidate     net_mom  max(meV)    per-k range    %k  verdict
+mp-1048863      -0.00       205    31-205    100%  ALTERMAGNET
+mp-1272506      -0.00       232   132-232    100%  ALTERMAGNET
+mp-1274449      -0.00       281    47-281    100%  ALTERMAGNET
+mp-1277241      +0.00        30    24-30      70%  no-splitting
+mp-1277787      -0.03       366   105-366    100%  ALTERMAGNET
+mp-1580697      +0.09       247    71-247    100%  ALTERMAGNET
+mp-19266        +0.00       125    31-125    100%  ALTERMAGNET
+mp-2240166      -0.00       269    26-269     99%  ALTERMAGNET
+mp-2674749      +0.01       360     6-360     44%  ALTERMAGNET
+mp-684727       +1.70      1168   818-1168   100%  SPLIT-but-FM?
+mp-756665       -0.00       115    67-115    100%  ALTERMAGNET
+mp-759163       +0.00        93     1-93      48%  ALTERMAGNET
+
+10 confirmed altermagnet(s). Wrote qe_results.csv
+[21:48:45] BATCH2 COMPLETE

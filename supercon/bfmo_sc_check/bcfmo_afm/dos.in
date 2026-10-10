@@ -1,0 +1,8 @@
+&DOS
+  prefix = 'bcfmo_afm'
+  outdir = './out'
+  fildos = 'bcfmo_afm.dos'
+  DeltaE = 0.005
+  Emin = -10.0
+  Emax = 25.0
+/

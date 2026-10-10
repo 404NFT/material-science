@@ -1,0 +1,440 @@
+material_id,formula,spacegroup,n_sites,e_hull,net_moment,AM@1e-05,AM@0.0001,AM@0.001,AM@0.01,verdict,Tc_analogy_K,known_SC_system
+mp-1016153,KMn8O16,,50,0.0206,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,10.4,False
+mp-1017466,SrMnO3,Pmmm (47),20,0.0492,0.0,AFM,AFM,AFM,AFM,AFM,-0.77,False
+mp-1039435,Ce5Mg,,6,0.0828,0.0,,,,,SKIP-UNCOMP,3.99,False
+mp-1041362,Zn(NiO2)4,R-3m (166),26,0.0834,0.0,AFM,err:RuntimeError,AFM,AFM,AFM,8.99,False
+mp-1041433,Ba2YMn3O8,P4/mmm (123),28,0.013,0.0,AFM,AFM,AFM,AFM,AFM,10.15,False
+mp-1043218,VZn(GeO3)2,C2/c (15),40,0.0732,0.0,AFM,AFM,AFM,AFM,AFM,9.96,False
+mp-1043903,CaLaFeCuO6,Pc (7),20,0.0457,0.0,AFM,AFM,AFM,AM,REVIEW-FLIP,31.44,False
+mp-1043917,CaLaFeAgO6,P1 (1),40,0.055,0.0,AFM,AFM,AFM,AFM,AFM,38.27,False
+mp-1045281,Ca2CoWO6,P1 (1),20,0.0249,0.0,AFM,AFM,AFM,AFM,AFM,13.0,False
+mp-1045770,YFe4(CuO4)3,Immm (71),20,0.0179,0.0,AFM,AM,AM,AM,REVIEW-FLIP,77.65,False
+mp-1046067,CaMn5O7,Cmcm (63),26,0.0675,0.0,AFM,AFM,AFM,AM,REVIEW-FLIP,11.11,False
+mp-1047130,Zn2NiIrO6,Pc (7),40,0.0169,0.0,AFM,AFM,AFM,AFM,AFM,1.9,False
+mp-1048672,Sr4CaMn2(SO3)2,P-4m2 (115),30,0.0824,0.0,AFM,AFM,AFM,AFM,AFM,6.39,False
+mp-1048803,Al2NiO4,Pmn2_1 (31),28,0.0222,0.0,AFM,AFM,AFM,AM,REVIEW-FLIP,3.54,False
+mp-1071505,Sr2FeO3,Immm (71),24,0.0,0.0,AFM,AFM,AFM,AFM,AFM,19.19,False
+mp-1077953,Eu4As2O,,7,0.0008,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,8.95,False
+mp-1078192,Eu4Sb2O,,7,0.0,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,6.82,False
+mp-1078244,ScNi2SbO6,P1 (1),10,0.0,0.0,AFM,AFM,err:RuntimeError,err:RuntimeError,AFM,11.41,False
+mp-1078367,InNi2SbO6,P1 (1),10,0.0,0.0,AFM,AFM,AFM,err:RuntimeError,AFM,2.63,False
+mp-1078912,Sr2HfFeO6,I4/mmm (139),20,0.042,0.0,AFM,err:RuntimeError,err:RuntimeError,AFM,AFM,21.03,False
+mp-1078969,Ba2NbVO6,P-1 (2),40,0.0,0.0,AFM,AFM,AFM,AFM,AFM,10.62,False
+mp-1079055,LaCrAsO,Cmme (67),16,0.0659,0.0,AFM,AFM,AFM,AFM,AFM,9.39,False
+mp-1079306,Sr3Fe2O5,Cmmm (65),20,0.0818,0.0,AFM,AFM,AFM,AFM,AFM,12.61,False
+mp-1079901,Ba2CrMoO6,I4/mmm (139),20,0.0,0.0,AFM,AFM,AFM,AFM,AFM,15.9,False
+mp-1080029,Ba2Mn2Se2OF2,I4/mmm (139),9,0.0542,0.0,AFM,AM,AM,AM,REVIEW-FLIP,12.89,False
+mp-1080742,Sr2ZrCrO6,P4_2/mnm (136),40,0.0354,0.0,AFM,AFM,AFM,AFM,AFM,6.03,False
+mp-1095039,Sr2HfCrO6,P1 (1),20,0.033,0.0,AFM,AFM,AFM,err:RuntimeError,AFM,15.13,False
+mp-1095155,Sr2NiIrO6,P4/nmm (129),40,0.0061,0.0,AFM,err:ValueError,AFM,AFM,AFM,8.81,False
+mp-1095170,Sr2FeOsO6,I4/mmm (139),20,0.0,0.0,AFM,AFM,AFM,AFM,AFM,14.27,False
+mp-1095213,BaFe2S2O,Pmmn (59),12,0.0313,0.0,AFM,AFM,AFM,AFM,AFM,14.45,False
+mp-1096819,Sr2Mn2O5,P4/mmm (123),18,0.059,0.0,AFM,AFM,AFM,AFM,AFM,4.08,False
+mp-1100902,VSbO4,Cmmm (65),24,0.0201,0.0,AFM,AFM,AFM,AFM,AFM,6.51,False
+mp-1101388,Ti3NiSb2(PO4)6,,36,0.0849,0.0,,,,,SKIP-UNCOMP,5.77,False
+mp-1101457,Ni(BiO3)2,P4_2/mnm (136),36,0.0,0.0,AFM,err:RuntimeError,AM,AFM,REVIEW-FLIP,-1.06,False
+mp-1101524,LiFe2(PO4)3,,72,0.0792,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,6.71,False
+mp-1102948,GdNi4B,,12,0.0,0.0,err:RuntimeError,err:RuntimeError,err:RuntimeError,err:RuntimeError,ERROR,3.31,False
+mp-1104611,Gd3CI3,Pm (6),14,0.0,0.0,AFM,AFM,AFM,AFM,AFM,6.2,False
+mp-1104703,Sr2NiClO3,P4/nmm (129),28,0.0794,0.0,AFM,AFM,err:RuntimeError,AFM,AFM,6.06,False
+mp-1105546,LaFe4(CuO4)3,Immm (71),20,0.0,0.0,err:RuntimeError,AM,AM,AM,AM,72.69,False
+mp-1105570,TaMnSi,,18,0.0,0.0,,,,,SKIP-UNCOMP,5.12,False
+mp-1147662,Sr2CuCO5,,18,0.0447,0.0,err:RuntimeError,err:RuntimeError,err:RuntimeError,err:RuntimeError,ERROR,24.8,False
+mp-1157256,CaCr(SiO3)2,C2/c (15),40,0.0426,0.0,AFM,AFM,AFM,AFM,AFM,13.73,False
+mp-1173107,TaVO4,Cmmm (65),12,0.0353,0.0,err:RuntimeError,err:RuntimeError,AFM,AFM,AFM,13.72,False
+mp-1173214,Sr4La2Mg(RuO6)2,,42,0.0396,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,5.0,False
+mp-1173259,Sr2NdGaCu2O7,P1 (1),26,0.0129,0.0,AFM,AFM,AFM,AFM,AFM,37.33,False
+mp-1173968,Li3Mn2CoO6,P1 (1),24,0.046,0.0,AFM,AFM,AFM,AFM,AFM,3.42,False
+mp-1174291,Li4Co3O7,,28,0.0595,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,-0.98,False
+mp-1174305,Li7Co5O12,,24,0.0772,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,-1.1,False
+mp-1174804,Li7Co5O12,,24,0.0784,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,-1.1,False
+mp-1175480,Li9Co7O16,,32,0.0654,0.0,,,,,SKIP-UNCOMP,1.54,False
+mp-1176342,Na3V3O8,P1 (1),28,0.0247,0.0,AFM,AFM,AFM,err:RuntimeError,AFM,12.19,True
+mp-1177982,Li2Fe(BO3)2,R-3 (148),22,0.0786,0.0,AFM,AFM,AFM,AFM,AFM,16.01,False
+mp-1178203,Ga2NiO4,P1 (1),28,0.0759,0.0,AFM,AFM,AFM,err:ValueError,AFM,3.79,False
+mp-1178232,FeO,P1 (1),8,0.012,0.0,AFM,AFM,AFM,AFM,AFM,15.5,False
+mp-1178416,CrO,C2/c (15),4,0.0928,0.0,AFM,AFM,AM,AM,REVIEW-FLIP,16.49,False
+mp-1178420,CoPbO3,P-1 (2),20,0.0494,0.0,AFM,AFM,AFM,AFM,AFM,-1.78,False
+mp-1180771,KCoO2,P1 (1),8,0.0,0.0,AFM,AFM,err:RuntimeError,err:RuntimeError,AFM,5.69,False
+mp-1183253,Ba2Fe2O5,P4/mmm (123),18,0.0115,0.0,err:RuntimeError,err:ValueError,AFM,AFM,AFM,13.77,False
+mp-1186554,Pm3Eu,P6_3/mmc (194),8,0.0692,0.0,AFM,AFM,AFM,AFM,AFM,4.46,False
+mp-1187773,VH6(OF)3,P1 (1),52,0.0,0.0,AFM,AFM,AFM,err:RuntimeError,AFM,39.04,False
+mp-1188333,Y2Co7,,18,0.0774,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,2.17,True
+mp-1190820,Ba2FeGe2O7,P-42_1m (113),48,0.0,0.0,AFM,err:RuntimeError,AFM,AFM,AFM,12.32,False
+mp-1190856,Mn2Sb2O7,Fd-3m (227),22,0.0374,0.0,AM,AM,AM,AM,AM,-0.01,False
+mp-1191628,PW6Cl17,P1 (1),24,0.007,0.0,AFM,err:ValueError,err:ValueError,err:ValueError,AFM,-1.29,False
+mp-1191926,EuGe7Rh3,R-3c (167),22,0.0231,0.0,AFM,err:RuntimeError,AM,AM,REVIEW-FLIP,1.53,False
+mp-1192408,KCo(PO3)3,P-6c2 (188),28,0.0,0.0,AFM,AFM,AFM,AM,REVIEW-FLIP,8.92,False
+mp-1193134,GdMoBrO4,,28,0.0734,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,6.76,False
+mp-1193368,Nb4CoSe8,P6_3/mmc (194),26,0.0,0.0,AFM,AFM,err:RuntimeError,AM,REVIEW-FLIP,4.41,False
+mp-1193389,Co(SbO2)2,P4_2/mbc (135),28,0.0,0.0,AFM,AFM,err:ValueError,AM,REVIEW-FLIP,-1.4,False
+mp-1195540,Dy3(Al3Ru)4,P6_3/mmc (194),38,0.0,0.0,AFM,AFM,AFM,AFM,AFM,3.15,False
+mp-1196177,GdPS4,P1 (1),48,0.0,0.0,AFM,err:ValueError,err:ValueError,err:ValueError,AFM,6.12,False
+mp-1198632,Gd2Zn17,,38,0.0051,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,0.63,False
+mp-1200559,Er2Ni7,P6_3/mmc (194),36,0.0035,0.0,AFM,AFM,AFM,AFM,AFM,1.05,False
+mp-1200585,Ho2Fe3Si5,P4/mnc (128),40,0.0,0.0,err:ValueError,AM,AM,AM,AM,3.52,False
+mp-1202605,Nd26Ga7Co10,,86,0.0,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,2.56,False
+mp-1202651,KVAsO5,,64,0.0883,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,7.19,False
+mp-1205312,Ca2MnO4,I4/mmm (139),28,0.021,0.0,AFM,AFM,AFM,AFM,AFM,18.64,False
+mp-1205944,Sr2TaVO6,I4/m (87),20,0.0,0.0,AFM,AFM,AFM,AFM,AFM,14.51,False
+mp-1207052,Sr2CrWO6,I4/mmm (139),20,0.0,0.0,AFM,err:RuntimeError,AFM,AFM,AFM,12.16,False
+mp-1207404,Zr5CoSb3,P6_3/mcm (193),18,0.0,0.0,AFM,err:RuntimeError,AM,AM,REVIEW-FLIP,3.2,False
+mp-1207417,Zr5CrSb2,I4/mcm (140),16,0.0235,0.0,AFM,AFM,AFM,AFM,AFM,4.8,False
+mp-1208126,Tm12Al7Si,I4/mcm (140),40,0.0,0.0,AFM,AFM,AM,AM,REVIEW-FLIP,4.36,False
+mp-1208718,Sr4Mn3BO10,Amm2 (38),36,0.0097,0.0,AFM,AFM,AFM,AFM,AFM,7.52,False
+mp-1208725,Sr3Fe2Ag2S2O5,I4/mmm (139),28,0.0222,0.0,AFM,AFM,err:ValueError,AFM,AFM,36.24,False
+mp-1208833,Sr2La2Tl2Cu3O10,I4/mmm (139),19,0.0846,0.0,AFM,AFM,AFM,AFM,AFM,48.09,True
+mp-1208914,Sm3(Al3Ru)4,P6_3/mmc (194),38,0.0,0.0,AFM,AFM,AFM,AFM,AFM,0.83,False
+mp-1208935,Sm3(Al3Os)4,P6_3/mmc (194),38,0.0,0.0,AFM,err:ValueError,AFM,AFM,AFM,4.59,False
+mp-1209054,Sm12(OsC3)5,P-62m (189),32,0.0,0.0,AFM,AFM,AM,AM,REVIEW-FLIP,4.38,False
+mp-1209374,Pr3(Al3Os)4,P6_3/mmc (194),38,0.0,0.0,AFM,err:ValueError,AFM,AFM,AFM,4.54,False
+mp-1209407,Pr4Re6O19,P1 (1),29,0.0054,0.0,AFM,AFM,AFM,err:ValueError,AFM,12.01,False
+mp-1209944,Nd3(Al3Ru)4,P6_3/mmc (194),38,0.0,0.0,AFM,AFM,AFM,AFM,AFM,0.94,False
+mp-1209971,Pr12(OsC3)5,P-62m (189),32,0.0,0.0,AFM,AFM,AM,AM,REVIEW-FLIP,4.53,False
+mp-1210077,Nd12(OsC3)5,P-62m (189),32,0.0,0.0,AFM,AFM,AM,AM,REVIEW-FLIP,4.64,False
+mp-1210813,Lu3Fe2Si3,Cmcm (63),16,0.0,0.0,err:ValueError,err:ValueError,err:ValueError,AFM,AFM,9.27,True
+mp-1211393,LaTi4Mn3O12,,40,0.0359,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,9.99,False
+mp-1212256,Ho3(Al3Os)4,P6_3/mmc (194),38,0.0,0.0,AFM,AFM,AFM,AFM,AFM,4.13,False
+mp-1212880,Er3Fe2Si3,Cmcm (63),16,0.0,0.0,AFM,AFM,AM,AFM,REVIEW-FLIP,9.31,True
+mp-1212920,Er3(Al3Os)4,P6_3/mmc (194),38,0.0,0.0,AFM,AFM,err:ValueError,AFM,AFM,4.13,False
+mp-1212964,Er2Ga3Co,P6_3/mmc (194),24,0.0,0.0,AFM,err:ValueError,AFM,AFM,AFM,0.36,False
+mp-1213200,Dy3(Al3Os)4,P6_3/mmc (194),38,0.0,0.0,AFM,err:ValueError,AFM,AFM,AFM,4.03,False
+mp-1213550,Eu2Ni12P5,,38,0.0,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,4.42,False
+mp-1215685,ZnNiO2,R-3m (166),16,0.0833,0.0,AFM,AFM,AFM,AFM,AFM,14.74,False
+mp-1215686,ZnNi4O5,,10,0.0487,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,16.79,False
+mp-1215716,ZnNi4O5,,10,0.0418,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,16.79,False
+mp-1215738,ZnNi4O5,I4/m (87),10,0.0489,0.0,AFM,AFM,AFM,AFM,AFM,16.79,False
+mp-1215743,ZnGaFeO4,Imma (74),28,0.0054,0.0,AFM,AFM,AFM,AFM,AFM,8.8,False
+mp-1216043,ZnTcNiO4,P1 (1),28,0.0589,0.0,AFM,AFM,AFM,AFM,AFM,12.31,False
+mp-1216224,Y3Mn2Sb3O14,P1 (1),22,0.0,0.0,AFM,AFM,err:RuntimeError,err:RuntimeError,AFM,11.11,False
+mp-1216344,VGa(CuO2)2,P2/m (10),16,0.02,0.0,err:RuntimeError,err:RuntimeError,AFM,AFM,AFM,53.26,False
+mp-1216712,UMnAl,,6,0.0346,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,3.4,False
+mp-1218139,SrLaVO4,Cm (8),14,0.0144,0.0,AFM,AFM,AFM,AFM,AFM,7.9,False
+mp-1218174,SrLaVO4,Cmcm (63),28,0.018,0.0,AFM,AFM,AFM,AFM,AFM,7.9,False
+mp-1218322,SrCaMn2O6,Cmmm (65),20,0.0837,0.0,AFM,err:ValueError,AFM,AFM,AFM,7.06,False
+mp-1218326,SrCrO2,P4/mmm (123),8,0.0345,0.0,AFM,err:RuntimeError,AFM,AFM,AFM,12.55,False
+mp-1218332,SrCaMnO4,I4mm (107),14,0.0255,0.0,AFM,err:RuntimeError,AFM,AFM,AFM,19.52,False
+mp-1218351,SrCaTiMnO6,Pmm2 (25),20,0.0543,0.0,AFM,AFM,AFM,AFM,AFM,11.21,False
+mp-1218366,SrCaMn2O6,I-42m (121),20,0.0612,0.0,AFM,err:RuntimeError,AFM,AFM,AFM,7.06,False
+mp-1218381,Sr2TiMnO6,P4/mmm (123),40,0.0095,0.0,AFM,err:ValueError,AFM,AFM,AFM,3.25,False
+mp-1218388,Sr2VMoO6,,20,0.0268,0.0,err:RuntimeError,err:RuntimeError,err:RuntimeError,err:RuntimeError,ERROR,4.12,False
+mp-1218408,SrCa3Mn2O8,P4mm (99),28,0.0246,0.0,AFM,AFM,AFM,AFM,AFM,20.6,False
+mp-1218441,Sr3LaMn2O8,Amm2 (38),28,0.043,0.0,AFM,AFM,AFM,AFM,AFM,11.38,False
+mp-1218478,Sr3MnFeO7,I4mm (107),24,0.0147,0.0,AFM,AFM,err:RuntimeError,AFM,AFM,10.24,False
+mp-1218493,Sr6Ti3FeO14,P4mm (99),48,0.0022,0.0,AFM,AFM,err:RuntimeError,AFM,AFM,9.76,False
+mp-1218597,Sr2YMn2O7,P2_1/m (11),24,0.022,0.0,AFM,err:RuntimeError,AFM,AFM,AFM,7.18,False
+mp-1218601,Sr3CaNi2(WO6)2,P1 (1),20,0.0086,0.0,AFM,AFM,AFM,AFM,AFM,9.04,False
+mp-1218674,Sr8Pr4Cu9(HgO8)3,,48,0.0805,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,56.54,True
+mp-1218688,Sr2TiMnO6,Pmmm (47),20,0.0185,0.0,AFM,AFM,AFM,AFM,AFM,3.25,False
+mp-1218692,Sr2TiFeO6,Pmmm (47),40,0.0068,0.0,AFM,err:ValueError,AFM,AFM,AFM,7.68,False
+mp-1218697,Sr6CaY2Ga3(Cu2O7)3,P1 (1),78,0.0191,0.0,AFM,err:ValueError,err:ValueError,err:ValueError,AFM,34.39,True
+mp-1218702,Sr2TaVO6,I4/mmm (139),20,0.0085,0.0,AFM,AFM,AFM,AFM,AFM,14.51,False
+mp-1218756,Sr2LaMn2O7,I4/mmm (139),12,0.0682,0.0,AFM,err:RuntimeError,AFM,AFM,AFM,7.56,False
+mp-1218757,Sr2La2TlNi2O9,P1 (1),32,0.0066,0.0,AFM,AFM,err:RuntimeError,err:ValueError,AFM,5.68,False
+mp-1218790,Sr4Y2GaCu5(PbO4)4,,32,0.0705,0.0,err:RuntimeError,err:RuntimeError,err:RuntimeError,err:RuntimeError,ERROR,52.22,False
+mp-1218803,Sr2La2MgMnO8,Pmmm (47),56,0.0984,0.0,AFM,AFM,AFM,AFM,AFM,16.61,False
+mp-1218827,Sr9Nd3Cu12(PbO4)8,,64,0.0311,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,59.98,False
+mp-1219308,ScNiBO4,,28,0.0085,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,5.59,False
+mp-1219418,Sc3Ga5Co,Amm2 (38),18,0.0,0.0,AFM,AFM,AFM,AFM,AFM,1.64,False
+mp-1220653,Rb6Ga10Se20O61,P1 (1),97,0.0696,0.0,AFM,AFM,AFM,AFM,AFM,19.31,False
+mp-1220846,Nb2Co(PbO3)3,P1 (1),60,0.0556,0.0,AFM,AFM,AFM,err:ValueError,AFM,4.6,False
+mp-1221018,NaSr4(FeAs)10,,25,0.0,0.0,,,,,SKIP-UNCOMP,19.21,False
+mp-1221361,Mn5SnO8,I-4m2 (119),28,0.0882,0.0,AFM,AFM,AM,AM,REVIEW-FLIP,9.34,False
+mp-1221669,MnCoSi2,,8,0.0348,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,1.03,False
+mp-1221762,MnCd4O5,P2_1/m (11),40,0.0197,0.0,AFM,AFM,AFM,AFM,AFM,2.23,False
+mp-1221777,MnCd4S5,Cm (8),20,0.0106,0.0,AFM,AFM,AFM,AFM,AFM,1.46,False
+mp-1221887,Mn2CdO3,C2/m (12),12,0.059,0.0,AFM,AFM,AFM,AFM,AFM,2.77,False
+mp-1221906,Mn2As2O7,P1 (1),22,0.0,0.0,AFM,AFM,AFM,AFM,AFM,2.12,False
+mp-1222968,LaSm3Cr4O12,,20,0.0013,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,13.17,False
+mp-1222994,LaNdCuO4,,14,0.097,0.0,err:RuntimeError,err:RuntimeError,err:RuntimeError,err:RuntimeError,ERROR,27.66,True
+mp-1223024,La4FeAs4Ru3O4,P-4m2 (115),32,0.0133,0.0,AFM,AFM,AFM,AFM,AFM,12.22,False
+mp-1223168,La3Nd(CuO4)2,,14,0.0944,0.0,err:RuntimeError,err:RuntimeError,err:RuntimeError,err:RuntimeError,ERROR,23.32,True
+mp-1223374,KNa2NiO2,Fmm2 (42),24,0.08,0.0,AFM,AFM,err:RuntimeError,AFM,AFM,13.73,False
+mp-1223548,KCo2H3(SeO5)2,P1 (1),36,0.0224,0.0,AFM,AFM,AFM,AFM,AFM,9.98,False
+mp-1224707,Fe2AsP,,8,0.0441,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,10.76,False
+mp-1224835,Fe2Pb3WO9,P-3m1 (164),15,0.0348,0.0,AFM,AFM,err:RuntimeError,AFM,AFM,7.97,False
+mp-1224918,GdHoAl6,P6_3/mmc (194),16,0.0097,0.0,AFM,AFM,AFM,AFM,AFM,4.64,False
+mp-1225806,Gd4Co3,,21,0.0,0.0,,,,,SKIP-UNCOMP,1.31,False
+mp-1225946,Cu2NiSnO4,P2/m (10),16,0.0,0.0,AFM,err:RuntimeError,err:RuntimeError,AFM,AFM,47.99,False
+mp-1226075,CoTeO4,P2_1/c (14),24,0.0,0.0,AFM,AM,AFM,AFM,REVIEW-FLIP,-1.0,False
+mp-1226109,Cr(ReO3)2,P4_2/mnm (136),36,0.0639,0.0,AFM,AFM,AFM,AFM,AFM,0.7,False
+mp-1226239,CrReO4,Cmmm (65),12,0.0787,0.0,AFM,AFM,AFM,AFM,AFM,4.96,False
+mp-1226688,Gd3Cu2Te7,,24,0.0017,0.0,err:RuntimeError,err:RuntimeError,err:RuntimeError,err:ValueError,ERROR,6.65,False
+mp-1226855,Ce3YRh4,Pmm2 (25),8,0.0125,0.0,AFM,AFM,AFM,AFM,AFM,1.0,False
+mp-1227175,CaNdCrO4,,14,0.0407,0.0,err:RuntimeError,err:RuntimeError,err:RuntimeError,err:RuntimeError,ERROR,24.54,False
+mp-1227519,Ca2MnNbO6,P2_1/c (14),40,0.0131,0.0,AFM,AFM,AFM,AFM,AFM,14.44,False
+mp-1227730,Ca4Fe3As8Pt,,16,0.0906,0.0,,,,,SKIP-UNCOMP,14.03,True
+mp-1227735,BaSr(FeO3)2,P2 (3),20,0.0053,0.0,AFM,AFM,err:RuntimeError,err:ValueError,AFM,16.27,False
+mp-1227920,BaLa2TiCr2O9,Cmmm (65),30,0.0379,0.0,AFM,AFM,AFM,AFM,AFM,12.17,False
+mp-1228205,Ba4CaMn2MoO12,R3m (160),40,0.0179,0.0,AFM,err:RuntimeError,err:RuntimeError,AFM,AFM,13.74,False
+mp-1228311,Ba4Tl4Cu2O11,P1 (1),21,0.0604,0.0,AFM,err:RuntimeError,err:RuntimeError,err:RuntimeError,AFM,69.77,True
+mp-1228600,Ba3La5Tl2(Cu2O9)2,,32,0.0512,0.0,err:RuntimeError,err:RuntimeError,err:RuntimeError,err:RuntimeError,ERROR,31.97,True
+mp-1228743,Ba2MnCu(P2O7)2,P1 (1),44,0.0067,0.0,AFM,AFM,AFM,AFM,AFM,34.35,False
+mp-1229095,Ba2CaCeGd2Ti2(CuO7)2,,24,0.0374,0.0,err:RuntimeError,err:RuntimeError,err:RuntimeError,err:RuntimeError,ERROR,43.52,False
+mp-1229106,Ba10Y5(Cu5O11)3,,63,0.0292,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,61.45,True
+mp-1229238,Ba10Gd4Y(Cu3O7)5,,65,0.0306,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,82.59,True
+mp-1232525,LaCrAsO,P1 (1),16,0.0725,0.0,AFM,AFM,AFM,AFM,AFM,9.39,False
+mp-1232560,CrN,R-3m (166),4,0.0411,0.0,AFM,err:RuntimeError,AFM,AFM,AFM,14.47,False
+mp-1232782,CrN,C2/m (12),8,0.0476,0.0,AFM,AFM,AFM,AFM,AFM,14.47,False
+mp-1232849,Ba(MnAs)2,C2/m (12),10,0.072,0.0,AFM,AFM,AFM,AFM,AFM,4.21,False
+mp-1232890,CrN,Pmmn (59),8,0.0225,0.0,AFM,AFM,err:ValueError,AFM,AFM,14.47,False
+mp-1232897,CrN,P4/nmm (129),8,0.0769,0.0,AFM,AFM,AFM,AFM,AFM,14.47,False
+mp-1235450,LiCu6OF11,P1 (1),19,0.0657,0.0,AFM,AFM,AFM,AFM,AFM,38.06,False
+mp-1239123,TaCr3(CuS4)2,P1 (1),28,0.0689,0.0,AFM,AFM,AFM,AFM,AFM,5.23,False
+mp-1245445,Ca3Mn3N5,,22,0.0,0.0,,,,,SKIP-UNCOMP,9.45,False
+mp-1245963,Ba(FeN)2,I4/mcm (140),10,0.0301,0.0,AM,AM,AM,AM,AM,18.95,False
+mp-1246702,Ca5(CoN3)2,C2/c (15),26,0.062,0.0,AFM,AFM,AFM,AFM,AFM,8.47,False
+mp-1264781,Ca2AlCuO5,Ima2 (46),18,0.0639,0.0,AFM,AM,AM,AM,REVIEW-FLIP,38.77,False
+mp-1271128,Fe,Fmmm (69),2,0.0991,0.0,AFM,AFM,AFM,AFM,AFM,3.79,True
+mp-1272200,Li2NiBiO4,C2 (5),32,0.0447,0.0,AFM,AFM,AFM,AFM,AFM,17.55,False
+mp-1272479,Li2CoNiO4,Cm (8),16,0.0859,0.0,AFM,AFM,AFM,AFM,AFM,4.65,False
+mp-1272890,La2ZnCoO6,,20,0.0,0.0,err:RuntimeError,err:RuntimeError,err:RuntimeError,err:RuntimeError,ERROR,3.06,False
+mp-1272927,CrReO4,P1 (1),24,0.0322,0.0,AFM,AFM,AFM,err:ValueError,AFM,4.96,False
+mp-1273356,CoAgO3,P-1 (2),20,0.0822,0.0,AFM,AFM,AFM,AFM,AFM,62.99,False
+mp-1273854,SrCoO3,P1 (1),20,0.0353,0.0,AFM,AFM,AFM,AFM,AFM,3.13,False
+mp-1274523,Sr3CoRuO6,P1 (1),22,0.0303,0.0,AFM,AFM,AFM,AFM,AFM,7.82,False
+mp-1274535,Mn2CuO4,I4_1/amd (141),14,0.051,0.0,AFM,err:ValueError,err:ValueError,AM,REVIEW-FLIP,78.27,False
+mp-1274697,Li2FeNiO4,Cm (8),16,0.015,0.0,AFM,AFM,AFM,AFM,AFM,6.52,False
+mp-1275541,Sr3Mn2Cu2S2O5,P1 (1),14,0.0308,0.0,AFM,AFM,err:RuntimeError,err:RuntimeError,AFM,35.14,False
+mp-1276828,SrLaCoO4,P1 (1),28,0.0138,0.0,AFM,AFM,AFM,AFM,AFM,4.1,False
+mp-1276866,SrLaFeCoO6,P1 (1),20,0.0399,0.0,AFM,AFM,AFM,err:RuntimeError,AFM,11.98,False
+mp-1277050,Mg2CoWO6,P1 (1),20,0.0849,0.0,AFM,AFM,AFM,AFM,AFM,14.96,False
+mp-1278503,CrReO4,P1 (1),12,0.0452,0.0,AFM,AFM,AFM,err:RuntimeError,AFM,4.96,False
+mp-1279065,VReO4,P1 (1),12,0.0306,0.0,AFM,AFM,err:RuntimeError,err:RuntimeError,AFM,4.48,False
+mp-1282711,LiCo(CO3)2,P-1 (2),40,0.027,0.0,AFM,AFM,AFM,AFM,AFM,13.32,False
+mp-1288258,Li2TiVO4,Cm (8),32,0.039,0.0,AFM,AFM,AFM,AFM,AFM,11.07,False
+mp-1289654,CrReO4,Cmm2 (35),24,0.0457,0.0,AFM,AFM,AFM,AFM,AFM,4.96,False
+mp-1290773,LiFe2(CO3)4,P1 (1),38,0.0891,0.0,AFM,AFM,AFM,AFM,AFM,13.54,False
+mp-1296431,Ca2VWO6,P2_1/c (14),20,0.0267,0.0,AFM,err:RuntimeError,AM,AM,REVIEW-FLIP,14.6,False
+mp-1302062,MgCr4(CuO4)3,R-3 (148),40,0.0655,0.0,AFM,AFM,AFM,AFM,AFM,51.28,False
+mp-1303920,Ba2YTlCo2O7,P1 (1),26,0.0698,0.0,AFM,AFM,AFM,AFM,AFM,10.57,False
+mp-1310548,Ca2CoIrO6,,40,0.0296,0.0,,,,,SKIP-UNCOMP,20.07,False
+mp-1344248,CaCr2(P2O7)2,P1 (1),21,0.0868,0.0,AFM,AFM,AFM,AFM,AFM,11.79,False
+mp-1355185,CaTi2Fe2(PO4)6,,35,0.0399,0.0,err:RuntimeError,err:RuntimeError,err:RuntimeError,err:RuntimeError,ERROR,6.62,False
+mp-1368630,V2Zn3O7,Cmc2_1 (36),24,0.0936,0.0,AFM,AFM,err:ValueError,AM,REVIEW-FLIP,11.35,False
+mp-1377823,Ca3Cr2O7,Cmc2_1 (36),24,0.0489,0.0,AFM,AFM,err:ValueError,AM,REVIEW-FLIP,20.77,False
+mp-14305,Lu2MnS4,Fd-3m (227),14,0.0,0.0,AFM,err:RuntimeError,AFM,AFM,AFM,3.78,False
+mp-15819,Mn3Al9Si,P6_3/mmc (194),26,0.0,0.0,err:RuntimeError,err:RuntimeError,AFM,AFM,AFM,3.01,False
+mp-16124,BaPr2MnS5,I4/mcm (140),18,0.0,0.0,AFM,AFM,AFM,AFM,AFM,2.72,False
+mp-17113,Sm2Ru2O7,I4_1/amd (141),22,0.0081,0.0,AFM,err:ValueError,AM,AM,REVIEW-FLIP,4.1,False
+mp-17188,U(Al10V)2,Fd-3m (227),46,0.0,0.0,AFM,AFM,AFM,AFM,AFM,3.37,False
+mp-17269,Ba3NiSb2O9,P6_3/mmc (194),60,0.0,0.0,AFM,AFM,AFM,AFM,AFM,2.5,False
+mp-18265,Y2Mo2O7,Fd-3m (227),22,0.013,0.0,AM,AM,AM,AM,AM,8.18,False
+mp-18442,Mn4SiO7,P6_3 (173),24,0.0433,0.0,AFM,AFM,AM,AM,REVIEW-FLIP,9.06,False
+mp-18611,Ba3NiSb2O9,P6_3mc (186),60,0.0138,0.0,AFM,AFM,AFM,AFM,AFM,2.5,False
+mp-18735,Ba2Co(BO2)6,R-3 (148),42,0.0606,0.0,AFM,err:RuntimeError,err:RuntimeError,AFM,AFM,6.14,False
+mp-18787,Ba2Mn3(SbO)2,I4/mmm (139),18,0.0487,0.0,AFM,AFM,AFM,AFM,AFM,4.45,False
+mp-18850,BaYMn2O5,P4/mmm (123),9,0.0058,0.0,err:RuntimeError,err:RuntimeError,err:RuntimeError,AFM,AFM,12.28,False
+mp-18869,Na4Mn2O5,Fddd (70),22,0.0,0.0,AFM,AFM,err:ValueError,AM,REVIEW-FLIP,15.82,False
+mp-18908,Sr2NiTeO6,C2/m (12),40,0.0,0.0,AFM,AFM,AFM,AFM,AFM,3.88,False
+mp-18952,Ca4Mn2O7,Cmce (64),26,0.0372,0.0,AFM,AFM,AFM,AFM,AFM,13.97,False
+mp-18967,Ba2CoMoO6,Fm-3m (225),20,0.0,0.0,AFM,err:RuntimeError,err:RuntimeError,AFM,AFM,9.4,False
+mp-19011,Ba2NiTeO6,R-3m (166),20,0.0,0.0,AFM,err:RuntimeError,AFM,AFM,AFM,1.22,False
+mp-19045,Ba2MnZn2(AsO)2,I4/mmm (139),36,0.0,0.0,AFM,AFM,AFM,AFM,AFM,12.86,False
+mp-19050,Ca2MnO4,I4_1/acd (142),28,0.0073,0.0,AFM,AFM,AM,AM,REVIEW-FLIP,18.64,False
+mp-19092,CoWO4,Pc (7),12,0.0,0.0,AFM,AFM,AFM,AM,REVIEW-FLIP,4.99,False
+mp-19140,K3MnO4,I-42m (121),32,0.0,0.0,AFM,AFM,AFM,AFM,AFM,16.93,False
+mp-19166,Sr3NiPtO6,R-3c (167),44,0.0,0.0,AFM,AFM,AFM,AFM,AFM,12.82,False
+mp-19189,K2Co(SeO3)2,P-1 (2),22,0.0,0.0,AFM,AFM,AFM,AFM,AFM,15.13,False
+mp-19213,Ba2Mn2Sb2O,P6_3/mmc (194),14,0.0266,0.0,AFM,err:ValueError,err:ValueError,AFM,AFM,2.82,False
+mp-19350,LaVO3,P2_1/c (14),20,0.0,0.0,AFM,AFM,err:RuntimeError,AM,REVIEW-FLIP,11.27,False
+mp-19361,Cr2(SO4)3,R-3 (148),34,0.0,0.0,AFM,AFM,AFM,AFM,AFM,3.53,False
+mp-19400,Sr2NiWO6,Fm-3m (225),20,0.0104,0.0,AFM,err:RuntimeError,AFM,AFM,AFM,7.79,False
+mp-19755,Li(TiS2)3,P3m1 (156),10,0.0146,0.0,AFM,AFM,AFM,AFM,AFM,11.67,True
+mp-19930,Nd2Ru2O7,I4_1/amd (141),22,0.0068,0.0,AFM,err:ValueError,AM,AM,REVIEW-FLIP,11.2,False
+mp-19976,Ce4S3O4,Pbam (55),22,0.0,0.0,AFM,AFM,AFM,AM,REVIEW-FLIP,8.01,False
+mp-20102,Gd(PdO2)2,I4_1/a (88),14,0.0,0.0,AFM,AFM,AFM,AFM,AFM,3.71,False
+mp-20141,Mn3O4,Pbcm (57),28,0.0525,0.0,AFM,err:ValueError,AFM,AFM,AFM,8.37,False
+mp-20143,La2NiO4,P1 (1),14,0.0501,0.0,AFM,AFM,AFM,err:RuntimeError,AFM,3.94,False
+mp-2029031,Gd8Sb3O8,P1 (1),19,0.0033,0.0,AFM,AFM,AFM,AFM,AFM,17.29,False
+mp-21302,Sr2MnGaO5,Ima2 (46),36,0.0,0.0,AFM,AFM,AFM,AFM,AFM,1.24,False
+mp-21874,La2NiO4,P4_2/ncm (138),28,0.0482,0.0,AM,AM,AM,AM,AM,3.94,False
+mp-21908,Co(SbO3)2,P4_2/mnm (136),36,0.0,0.0,err:RuntimeError,err:RuntimeError,AFM,AFM,AFM,-0.83,False
+mp-22025,Co2As2O7,P1 (1),22,0.021,0.0,AFM,AFM,AFM,AFM,AFM,6.28,False
+mp-2228384,NaMgCu2H2(SeO5)2,P1 (1),18,0.086,0.0,AFM,AFM,AFM,AFM,AFM,63.95,False
+mp-2233353,Sr2MgRu3O10,,16,0.0923,0.0,,,,,SKIP-UNCOMP,8.06,False
+mp-22458,Sr2MnGe2O7,P-42_1m (113),48,0.0001,0.0,AFM,AFM,AFM,AFM,AFM,3.05,False
+mp-22754,Ni2As2O7,C2/m (12),22,0.0316,0.0,AFM,err:ValueError,AFM,AFM,AFM,3.01,False
+mp-2408760,NaCu2O3,,12,0.0474,0.0,,,,,SKIP-UNCOMP,13.91,False
+mp-24555,MnTl2H2OF5,P2_1/m (11),44,0.0,0.0,AFM,AFM,AFM,AFM,AFM,29.16,False
+mp-27359,CsScCl3,P6_3/mmc (194),10,0.0188,0.0,AFM,AM,AM,AM,REVIEW-FLIP,18.09,False
+mp-2748558,UNiSn,P-1 (2),6,0.0729,0.0,AFM,AFM,AFM,AFM,AFM,1.85,False
+mp-2750490,Fe2Re3,C222_1 (20),20,0.0118,0.0,AFM,AFM,AM,AM,REVIEW-FLIP,7.45,True
+mp-2752787,Eu2As7Pd12,P1 (1),21,0.0,0.0,AFM,AFM,AFM,err:RuntimeError,AFM,3.05,False
+mp-2761400,La4Ru6O19,P1 (1),29,0.0,0.0,AFM,AFM,err:ValueError,err:ValueError,AFM,5.81,False
+mp-2903350,Ba(FeAs)2,Fmmm (69),10,0.0,0.0,AFM,err:RuntimeError,AFM,AFM,AFM,22.55,True
+mp-29821,Gd4B3C4,,11,0.0,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,6.96,False
+mp-29876,MnNb3O6,Immm (71),40,0.0208,0.0,AFM,AFM,err:ValueError,AFM,AFM,10.93,False
+mp-30194,Rb3CoO2,Pnma (62),24,0.0,0.0,err:ValueError,err:ValueError,AFM,AFM,AFM,13.97,False
+mp-31237,CuAsF7,Imma (74),18,0.0,0.0,AFM,AFM,AM,AM,REVIEW-FLIP,46.82,False
+mp-31515,Sr2CoReO6,P4_2/m (84),20,0.0423,0.0,AFM,AFM,AFM,AM,REVIEW-FLIP,7.82,False
+mp-31628,CrReO4,C2/m (12),24,0.0248,0.0,AFM,AFM,AFM,AFM,AFM,4.96,False
+mp-31770,Fe3O4,Cc (9),14,0.0147,0.0,AFM,AFM,AFM,AM,REVIEW-FLIP,15.52,False
+mp-31906,MnReO4,P-1 (2),24,0.0594,0.0,AFM,AFM,AFM,AFM,AFM,2.51,False
+mp-3787,RbFe2S3,Cmcm (63),12,0.0,0.0,AFM,AFM,AM,AM,REVIEW-FLIP,13.84,False
+mp-38108,Ba3Pt2O7,,48,0.0037,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,2.77,False
+mp-38870,Ca(Ce2Se3)4,,42,0.0542,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,5.42,False
+mp-4150,Ca(MnSb)2,P-3m1 (164),5,0.0746,0.0,AFM,AFM,AFM,AFM,AFM,7.08,False
+mp-4802,La4Re6O19,P1 (1),29,0.0,0.0,AFM,AFM,AFM,err:ValueError,AFM,12.88,False
+mp-504566,La2CoO4,C2/m (12),28,0.0726,0.0,AFM,AFM,AFM,AFM,AFM,7.37,False
+mp-504867,Sr3CuIrO6,,22,0.0,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,38.27,False
+mp-505147,Cs6Fe2O5,C2/m (12),26,0.0,0.0,AFM,AFM,AFM,AFM,AFM,22.04,False
+mp-505151,Ca3CuIrO6,,22,0.0359,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,45.02,False
+mp-505271,Ni(SbO3)2,P4_2/mnm (136),36,0.0,0.0,AFM,AFM,AFM,AFM,AFM,-1.11,False
+mp-505552,Cd2Ru2O7,I4_1/amd (141),22,0.0,0.0,AFM,err:ValueError,AM,AM,REVIEW-FLIP,-2.07,False
+mp-505766,SrCoO3,Pm-3m (221),10,0.0819,0.0,err:RuntimeError,AFM,AFM,AFM,AFM,3.13,False
+mp-505801,Eu2Ti2O7,Fd-3m (227),22,0.0703,0.0,AFM,err:ValueError,AM,AM,REVIEW-FLIP,12.02,False
+mp-510546,Sr2CoMoO6,C2/m (12),20,0.0,0.0,AFM,err:RuntimeError,err:RuntimeError,AFM,AFM,7.81,False
+mp-510562,KMnP3HO10,C2/c (15),64,0.0,0.0,AFM,err:ValueError,AFM,AFM,AFM,10.19,False
+mp-510593,Dy5CoSb2,Pnma (62),32,0.0,0.0,AFM,AFM,err:RuntimeError,AFM,AFM,3.24,False
+mp-530641,Y4Cu7O16,,54,0.0138,0.0,,,,,SKIP-UNCOMP,80.62,False
+mp-540907,Ba3NiIr2O9,P6_3/mmc (194),60,0.0,0.0,AFM,AFM,err:RuntimeError,AFM,AFM,6.63,False
+mp-541373,KTa3CuO9,,56,0.0147,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,68.79,False
+mp-541512,Ba3Cr2WO9,P-62c (190),30,0.0,0.0,AFM,AFM,AM,AM,REVIEW-FLIP,4.36,False
+mp-541557,Lu2Fe3Si5,P4/mnc (128),40,0.0,0.0,AFM,err:ValueError,AM,AM,REVIEW-FLIP,4.78,True
+mp-541859,Tb12(OsC3)5,P-62m (189),32,0.0,0.0,AFM,AFM,err:ValueError,AM,REVIEW-FLIP,4.6,False
+mp-550454,Ba2Mn2As2O,C2/m (12),7,0.0138,0.0,AFM,AFM,AFM,AFM,AFM,2.11,False
+mp-551219,Sr2MnCu2(SO)2,I4/mmm (139),18,0.0871,0.0,AFM,AFM,AFM,AFM,AFM,48.04,False
+mp-552024,Li(CoO2)2,P1 (1),14,0.0316,0.0,AFM,err:RuntimeError,err:RuntimeError,err:RuntimeError,AFM,13.39,False
+mp-552651,La2Fe2Se2O3,I4/mmm (139),9,0.096,0.0,AFM,AM,AM,AM,REVIEW-FLIP,19.49,False
+mp-555102,Ni(BO2)2,C2/c (15),28,0.0056,0.0,AFM,AFM,AFM,AFM,AFM,4.83,False
+mp-556338,RbMnPO4,P2_1 (4),28,0.0,0.0,AFM,AFM,AFM,AM,REVIEW-FLIP,9.14,False
+mp-556391,Ba2Mn2Bi2O,P6_3/mmc (194),14,0.0472,0.0,AFM,AFM,err:ValueError,AFM,AFM,4.78,False
+mp-557020,Sr3Fe2Cu2Se2O5,C2/m (12),14,0.0517,0.0,AFM,AFM,err:RuntimeError,AFM,AFM,43.96,False
+mp-557217,Cr2PIO4,P2_1/c (14),32,0.0185,0.0,AFM,AFM,err:ValueError,AFM,AFM,13.72,False
+mp-557755,Ba3Cr2MoO9,P6_3/mmc (194),30,0.0,0.0,AFM,err:RuntimeError,AFM,AFM,AFM,8.08,False
+mp-557843,Ca2MnSbO6,P2_1/m (11),40,0.0158,0.0,AFM,AFM,AFM,AFM,AFM,14.72,False
+mp-558344,VSnPO5,P-1 (2),32,0.0,0.0,AFM,AFM,err:ValueError,AFM,AFM,2.17,False
+mp-558765,Li2Ni(WO4)2,P-1 (2),26,0.0016,0.0,AFM,err:RuntimeError,AFM,AFM,AFM,12.38,False
+mp-558810,Ca2TaMnO6,P2_1/m (11),40,0.0086,0.0,AFM,AFM,AFM,AFM,AFM,18.12,False
+mp-559316,CsV(SO4)2,P-3 (147),48,0.0,0.0,AFM,AFM,AFM,AFM,AFM,20.68,False
+mp-559975,SrMnO3,C222_1 (20),20,0.0,0.0,AM,AM,AM,AM,AM,-0.77,False
+mp-560165,Cu(BiO2)2,I4cm (108),14,0.0883,0.0,err:RuntimeError,err:RuntimeError,err:RuntimeError,AM,AM,0.22,False
+mp-560924,K2NaFeO3,Cmme (67),28,0.0,0.0,AFM,err:ValueError,AFM,AFM,AFM,15.5,False
+mp-561426,Ba2CrO4,Pna2_1 (33),28,0.0002,0.0,AM,AM,AM,AM,AM,7.05,False
+mp-561748,CsV(MoO4)2,P1 (1),24,0.0,0.0,AFM,AFM,err:RuntimeError,err:RuntimeError,AFM,9.85,False
+mp-566287,Ba2Eu2ZnPtO8,,56,0.0965,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,7.22,False
+mp-567527,Eu(Al10V)2,Fd-3m (227),46,0.0,0.0,AFM,err:RuntimeError,err:RuntimeError,AFM,AFM,2.41,False
+mp-581536,U4Al18Ni5,Cm (8),27,0.0638,0.0,AFM,AFM,AFM,AFM,AFM,3.64,False
+mp-582882,Cu2P2PbO8,,104,0.0453,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,12.16,False
+mp-602328,Ce(InPt)2,,20,0.0023,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,2.31,True
+mp-615789,Ba2(CuO2)3,,44,0.0,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,86.81,True
+mp-626794,Ni(HO)2,P-1 (2),20,0.0279,0.0,AFM,AFM,AFM,AFM,AFM,28.72,False
+mp-630641,Sr2FeClO3,P4/nmm (129),28,0.032,0.0,AFM,err:RuntimeError,AM,AFM,REVIEW-FLIP,17.38,False
+mp-636519,Ni(RhO2)2,I4_1/amd (141),14,0.0856,0.0,AFM,AFM,err:RuntimeError,AFM,AFM,2.9,False
+mp-643741,Sr2YAlCu2O7,Ima2 (46),26,0.0287,0.0,AFM,AM,AM,AM,REVIEW-FLIP,28.98,False
+mp-644838,Co2Mo4N,Fd-3m (227),28,0.0,0.0,AFM,AFM,AFM,AFM,AFM,6.43,False
+mp-646749,Nb2Ni4O9,,60,0.0064,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,9.6,False
+mp-653855,Pr3PtI3,I4_122 (98),28,0.0,0.0,AFM,AFM,AFM,AM,REVIEW-FLIP,2.0,False
+mp-654051,Nb6SI9,,32,0.0,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,2.73,False
+mp-669361,Cu2BiAsO6,Pnma (62),40,0.0439,0.0,AFM,err:RuntimeError,err:RuntimeError,AFM,AFM,11.65,False
+mp-672654,Zr6Co16Ge7,Fm-3m (225),29,0.0268,0.0,AFM,err:ValueError,AFM,AFM,AFM,1.11,False
+mp-672680,Zr6Co16Si7,Fm-3m (225),29,0.0,0.0,AFM,err:ValueError,AFM,AFM,AFM,1.55,False
+mp-672689,Hf6Co16Si7,Fm-3m (225),29,0.0,0.0,AFM,AFM,AFM,AFM,AFM,2.16,False
+mp-673846,La2CuO4,,42,0.0774,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,30.83,True
+mp-675006,FeOF,P4_12_12 (92),12,0.0316,0.0,err:ValueError,err:ValueError,AM,AM,AM,13.02,False
+mp-680269,Er2Fe3Si5,P4/mnc (128),40,0.0,0.0,err:ValueError,AM,AM,AM,AM,2.44,True
+mp-690561,Mn(SbO3)2,C2/m (12),36,0.0568,0.0,AFM,AFM,err:RuntimeError,AFM,AFM,1.94,False
+mp-695928,CoPH6O6F,P1 (1),60,0.0107,0.0,AFM,err:RuntimeError,err:RuntimeError,err:RuntimeError,AFM,22.12,False
+mp-715262,FeO,I4/mmm (139),4,0.0093,0.0,AFM,AFM,AFM,AFM,AFM,15.5,False
+mp-752688,MnCdO2,P4/mmm (123),8,0.074,0.0,AFM,AFM,AFM,AFM,AFM,1.77,False
+mp-752697,LiFeP2O7,P-1 (2),44,0.0739,0.0,AFM,AFM,AFM,AFM,AFM,12.16,False
+mp-752759,Co2NiO6,Cmce (64),18,0.0505,0.0,AFM,AFM,err:ValueError,AFM,AFM,5.34,False
+mp-752807,Li(CoO2)2,Imma (74),14,0.071,0.0,AFM,AFM,err:RuntimeError,AM,REVIEW-FLIP,13.39,False
+mp-752929,Fe(CO3)2,P-1 (2),36,0.0693,0.0,AFM,AFM,AFM,AFM,AFM,12.94,False
+mp-753078,LiMnP2O7,P-1 (2),22,0.0632,0.0,AFM,AFM,AFM,AFM,AFM,4.93,False
+mp-753103,LiCo(CO3)2,P-1 (2),20,0.02,0.0,err:RuntimeError,err:RuntimeError,AFM,AFM,AFM,13.32,False
+mp-753138,Fe2OF3,Ima2 (46),12,0.0527,0.0,AFM,AFM,err:RuntimeError,AM,REVIEW-FLIP,14.04,False
+mp-753146,Li4Mn3O6F,C2/m (12),28,0.044,0.0,AFM,AFM,AFM,AFM,AFM,8.04,False
+mp-753393,NaVO2,C2/m (12),8,0.0668,0.0,AFM,err:RuntimeError,AFM,AFM,AFM,10.19,True
+mp-753469,Co2NiO6,P-1 (2),18,0.0508,0.0,AFM,AFM,AFM,AFM,AFM,5.34,False
+mp-753579,V2P2O7,C2/m (12),22,0.0294,0.0,err:ValueError,AFM,AFM,AFM,AFM,2.13,False
+mp-753659,Li2MnO2F,Cmcm (63),24,0.0745,0.0,AFM,AFM,AFM,AFM,AFM,9.61,False
+mp-753682,FeO,P4_2/mmc (131),8,0.0871,0.0,AFM,AFM,AFM,AFM,AFM,15.5,False
+mp-753688,MnCd4O5,P1 (1),40,0.0238,0.0,AFM,AFM,AFM,AFM,AFM,2.23,False
+mp-754053,FeOF,P2_1/c (14),12,0.026,0.0,err:ValueError,err:ValueError,AM,AM,AM,13.02,False
+mp-754072,VOF,P2_1/c (14),12,0.0138,0.0,AFM,AFM,AFM,AFM,AFM,8.93,False
+mp-754124,ScCoO3,P1 (1),20,0.0695,0.0,AFM,err:RuntimeError,err:ValueError,err:ValueError,AFM,7.41,False
+mp-754187,Li3Mn2SnO6,C2/m (12),24,0.0664,0.0,AFM,AFM,AFM,AFM,AFM,6.44,False
+mp-754248,Li2Mn3NbO8,R-3m (166),28,0.0768,0.0,AFM,AFM,AFM,AFM,AFM,2.54,False
+mp-754490,NiHgO2,P2/c (13),16,0.015,0.0,AFM,err:ValueError,AFM,AFM,AFM,3.48,False
+mp-754547,Li2TiMnO4,I-4m2 (119),32,0.0726,0.0,AFM,AFM,AFM,AFM,AFM,3.59,False
+mp-754716,Li2CuNiO4,I-4m2 (119),16,0.0149,0.0,AFM,AFM,AFM,AFM,AFM,60.51,False
+mp-754743,Na2FeO2,Cmc2_1 (36),20,0.0715,0.0,AFM,AFM,AFM,AFM,AFM,15.44,False
+mp-754809,MnNbO4,I-4m2 (119),12,0.0519,0.0,AFM,AFM,err:RuntimeError,AFM,AFM,10.86,False
+mp-754887,Li4CoOF5,C2/m (12),22,0.0595,0.0,AFM,AFM,AFM,AFM,AFM,20.21,False
+mp-754904,Li3NbV2O6,C2/m (12),24,0.0912,0.0,AFM,AFM,err:ValueError,AFM,AFM,7.6,False
+mp-754915,NaFeO3,R-3 (148),10,0.0552,0.0,AFM,AFM,AFM,AFM,AFM,18.65,False
+mp-755002,Li2NiBiO4,I-4m2 (119),16,0.0423,0.0,AFM,AFM,err:RuntimeError,AFM,AFM,17.55,False
+mp-755005,LiNbCrO4,C2/m (12),28,0.0811,0.0,AFM,AFM,AFM,AFM,AFM,12.89,False
+mp-755033,Li5Mn2P2(CO7)2,P1 (1),25,0.0366,0.0,AFM,AFM,AFM,AFM,AFM,11.46,False
+mp-755125,LiMnSiO4,Imma (74),28,0.0906,0.0,AFM,AFM,AFM,AFM,AFM,11.42,False
+mp-755349,Cu3OF5,,18,0.034,0.0,,,,,SKIP-UNCOMP,49.75,False
+mp-755365,Li2MnSnO4,I-4m2 (119),32,0.0374,0.0,AFM,AFM,AFM,AFM,AFM,9.28,False
+mp-755372,Li2MnO2,Immm (71),10,0.0717,0.0,AFM,err:RuntimeError,AFM,AFM,AFM,14.66,False
+mp-755409,Li5Mn2Cu3O10,P1 (1),40,0.0467,0.0,AFM,AFM,AFM,AFM,AFM,65.0,False
+mp-755412,MnSbO4,Imm2 (44),24,0.0678,0.0,AFM,AFM,AFM,AFM,AFM,1.77,False
+mp-755702,Li2TiVO4,I-4m2 (119),16,0.0361,0.0,AFM,err:RuntimeError,err:RuntimeError,AFM,AFM,11.07,False
+mp-755766,Li5Mn3(SbO5)2,P-1 (2),40,0.0835,0.0,AFM,AFM,AFM,AFM,AFM,2.61,False
+mp-755855,Li2Fe3BiO8,C2 (5),28,0.0137,0.0,AFM,AFM,err:ValueError,AFM,AFM,23.49,False
+mp-755956,LiNi3O4,Cmmm (65),16,0.0122,0.0,AFM,AFM,err:ValueError,AM,REVIEW-FLIP,16.49,False
+mp-756024,Cr(SbO3)2,P2_12_12 (18),36,0.0634,0.0,AFM,AFM,AFM,AFM,AFM,4.29,False
+mp-756154,Li2Cr3BiO8,R-3m (166),28,0.0156,0.0,AFM,AFM,err:ValueError,AFM,AFM,16.3,False
+mp-756158,Li2Ti3VO8,C2/m (12),56,0.0129,0.0,AFM,err:ValueError,AFM,AFM,AFM,5.87,False
+mp-756280,Li2Ti3CrO8,C2/m (12),56,0.0027,0.0,AFM,AFM,AFM,AFM,AFM,4.81,False
+mp-756364,Li3Mn(NiO3)2,C2/m (12),24,0.025,0.0,AFM,AFM,AFM,AFM,AFM,-0.54,False
+mp-756730,Li2V2Si4O11,,38,0.0142,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,16.41,False
+mp-756796,Li2TiVO4,Imma (74),32,0.0235,0.0,AFM,AFM,AFM,AFM,AFM,11.07,False
+mp-756814,Li2Mn5(Si2O7)2,P-1 (2),50,0.03,0.0,AFM,AFM,err:ValueError,AFM,AFM,7.78,False
+mp-756844,Li3Mn4SnO8,P1 (1),16,0.0541,0.0,AFM,AFM,AFM,err:RuntimeError,AFM,8.42,False
+mp-757166,Li3Mn(SbO3)4,P1 (1),40,0.0637,0.0,AFM,AFM,AFM,AFM,AFM,8.82,False
+mp-757232,Li3Mn2CuO6,C2/m (12),24,0.0714,0.0,AFM,AFM,AFM,AFM,AFM,62.96,False
+mp-757244,MnCd9O10,P1 (1),80,0.0121,0.0,AFM,AFM,AFM,AFM,AFM,4.36,False
+mp-757742,Li2Fe(CoO3)2,Aea2 (41),22,0.0805,0.0,AFM,AFM,AFM,AM,REVIEW-FLIP,14.9,False
+mp-758713,Li3Mn2P2O8F3,Cc (9),36,0.0689,0.0,AFM,AFM,AFM,AM,REVIEW-FLIP,3.4,False
+mp-759411,Li3TiV2O6,P-1 (2),24,0.0282,0.0,AFM,AFM,AFM,AFM,AFM,8.42,False
+mp-759438,Li6CoOF6,P1 (1),28,0.0292,0.0,AFM,AFM,AFM,err:RuntimeError,AFM,22.78,False
+mp-759543,FeOF,P2_1/c (14),12,0.0165,0.0,AFM,AM,AM,AM,REVIEW-FLIP,13.02,False
+mp-760112,Li2MnO2F,Pnma (62),24,0.0482,0.0,AFM,AFM,AFM,AFM,AFM,9.61,False
+mp-760391,Mn2Cd3O5,P1 (1),20,0.0454,0.0,AFM,AFM,AFM,AFM,AFM,1.78,False
+mp-761390,TaFeO4,Cm (8),24,0.0,0.0,AFM,AFM,AFM,AFM,AFM,10.3,False
+mp-761415,CuNi3O4,Cmmm (65),16,0.0644,0.0,AFM,AFM,err:ValueError,AM,REVIEW-FLIP,69.66,False
+mp-762163,Li3TiMn2O6,Cm (8),12,0.0795,0.0,AFM,AFM,AFM,AFM,AFM,2.25,False
+mp-762634,K2LiMn2O4,C2/c (15),18,0.0928,0.0,AFM,AFM,AFM,AFM,AFM,16.68,False
+mp-763524,LiFe2(CO3)4,P1 (1),38,0.0968,0.0,AFM,AFM,AFM,AFM,AFM,13.54,False
+mp-765613,Li(CuO)3,,28,0.0374,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,18.64,False
+mp-766895,Cr8Ni50Mo17,P1 (1),75,0.0269,0.0,AFM,AFM,AFM,AFM,AFM,1.71,False
+mp-768173,Li2Al2FeO6,C2 (5),44,0.0831,0.0,AFM,AFM,AFM,AFM,AFM,18.66,False
+mp-768304,CrSO4,P2_1/m (11),24,0.061,0.0,AFM,AFM,AFM,AFM,AFM,-2.55,False
+mp-769659,Li2TiFeO4,P1 (1),32,0.0784,0.0,AFM,AFM,AFM,AFM,AFM,18.35,False
+mp-770470,Li5Cu5(SnO6)2,,24,0.0884,0.0,,,,,SKIP-UNCOMP,40.99,False
+mp-770486,Li3Ni2SnO6,C2/m (12),24,0.0307,0.0,AFM,AFM,AFM,AFM,AFM,4.43,False
+mp-770677,Li4Co3Sb5O16,Cm (8),56,0.0572,0.0,AFM,AFM,err:ValueError,AFM,AFM,9.99,False
+mp-771788,Li4V3O8,R-3 (148),30,0.0949,0.0,AFM,AFM,AFM,AFM,AFM,7.34,True
+mp-772597,Li2CuNiO4,C2/c (15),16,0.0214,0.0,AFM,AFM,AM,AM,REVIEW-FLIP,60.51,False
+mp-772817,Ba4Y2Cu5O14,,25,0.069,0.0,,,,,SKIP-UNCOMP,76.06,True
+mp-773086,Li4Mn3SbO8,C2/m (12),32,0.0611,0.0,AFM,AFM,err:RuntimeError,AFM,AFM,3.3,False
+mp-773182,Li4Cr3Sn5O16,Cm (8),56,0.0278,0.0,AFM,AFM,err:ValueError,AFM,AFM,15.82,False
+mp-773607,LiTiNiO4,C2/m (12),28,0.0544,0.0,AFM,AFM,AFM,AFM,AFM,10.66,False
+mp-774256,Na2MnO2,Ibam (72),20,0.0292,0.0,AFM,AFM,AFM,AFM,AFM,11.98,False
+mp-774353,Li3Ti(NiO3)2,C2/m (12),24,0.0392,0.0,AFM,AFM,AFM,AFM,AFM,5.24,False
+mp-774789,Li4Ti2Co3Sb3O16,P1 (1),56,0.0752,0.0,AFM,AFM,AFM,AFM,AFM,12.21,False
+mp-775019,CoSb(PO4)2,P1 (1),48,0.0813,0.0,AFM,AFM,AFM,AFM,AFM,3.41,False
+mp-775022,LiFeOF,P2 (3),8,0.0893,0.0,AFM,AFM,AFM,AFM,AFM,24.99,False
+mp-775023,Li2Fe3SnO8,C2/m (12),28,0.0214,0.0,AFM,err:ValueError,AFM,AFM,AFM,20.75,False
+mp-776054,Li2MnCuO4,C2/c (15),16,0.082,0.0,AFM,AFM,AM,AM,REVIEW-FLIP,69.36,False
+mp-777786,Na2CoO3,P2_1 (4),24,0.0,0.0,AFM,AFM,AFM,AFM,AFM,10.03,False
+mp-777879,Ni4(PO4)3,,76,0.052,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,-0.17,False
+mp-780325,LiMnSiO4,Cmcm (63),28,0.0496,0.0,AFM,AFM,AFM,AFM,AFM,11.42,False
+mp-780807,Li2TiCr3O8,P-1 (2),28,0.0829,0.0,AFM,AFM,AFM,AFM,AFM,9.31,False
+mp-849457,Li3Ni(SbO3)4,P1 (1),40,0.0598,0.0,AFM,AFM,AFM,AFM,AFM,10.8,False
+mp-850194,TiNiO3,R3c (161),10,0.014,0.0,AFM,AM,AM,AM,REVIEW-FLIP,10.87,False
+mp-850203,LiNbVO4,C2 (5),28,0.0537,0.0,AFM,AFM,AFM,AFM,AFM,8.62,False
+mp-850289,Li4Ti2Ni3Sb3O16,Cm (8),56,0.0658,0.0,AFM,AFM,err:ValueError,AFM,AFM,13.29,False
+mp-850970,Co2O3F,Cmce (64),24,0.0833,0.0,AFM,AFM,AFM,AFM,AFM,9.65,False
+mp-856161,CoO2,P1 (1),12,0.0891,0.0,AFM,AFM,AFM,AFM,AFM,7.17,False
+mp-861596,FeSb(PO4)2,P-1 (2),48,0.0695,0.0,AFM,AFM,AFM,AFM,AFM,5.82,False
+mp-867719,FePtO2,C2/m (12),8,0.0742,0.0,err:RuntimeError,AFM,AFM,AFM,AFM,7.11,False
+mp-867741,LiCuF4,Cm (8),24,0.0523,0.0,AFM,AFM,AFM,AFM,AFM,35.19,False
+mp-867824,LiAg3F8,P1 (1),24,0.0901,0.0,AFM,AFM,AFM,AFM,AFM,33.67,False
+mp-870701,Fe4S5,,18,0.0639,0.0,err:ValueError,err:ValueError,err:ValueError,err:ValueError,ERROR,2.39,False

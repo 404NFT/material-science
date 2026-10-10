@@ -1,0 +1,97 @@
+Querying MP summary: AFM + metallic + near-stable ...
+Retrieving SummaryDoc documents:   0%|          | 0/439 [00:00<?, ?it/s]Retrieving SummaryDoc documents: 100%|██████████| 439/439 [00:00<00:00, 1060656.37it/s]
+  439 metallic AFM materials
+Retrieving MagnetismDoc documents:   0%|          | 0/439 [00:00<?, ?it/s]Retrieving MagnetismDoc documents: 100%|██████████| 439/439 [00:00<00:00, 14163841.97it/s]
+  magmoms 439/439
+[7/439] mp-1043903       CaLaFeCuO6       REVIEW-FLIP  Tc-analogy   31.4 K
+[10/439] mp-1045770       YFe4(CuO4)3      REVIEW-FLIP  Tc-analogy   77.6 K
+[11/439] mp-1046067       CaMn5O7          REVIEW-FLIP  Tc-analogy   11.1 K
+[14/439] mp-1048803       Al2NiO4          REVIEW-FLIP  Tc-analogy    3.5 K
+[25/439] mp-1080029       Ba2Mn2Se2OF2     REVIEW-FLIP  Tc-analogy   12.9 K
+[34/439] mp-1101457       Ni(BiO3)2        REVIEW-FLIP  Tc-analogy   -1.1 K
+[39/439] mp-1105546       LaFe4(CuO4)3     AM           Tc-analogy   72.7 K
+[55/439] mp-1178416       CrO              REVIEW-FLIP  Tc-analogy   16.5 K
+[63/439] mp-1190856       Mn2Sb2O7         AM           Tc-analogy   -0.0 K
+[65/439] mp-1191926       EuGe7Rh3         REVIEW-FLIP  Tc-analogy    1.5 K
+[66/439] mp-1192408       KCo(PO3)3        REVIEW-FLIP  Tc-analogy    8.9 K
+[68/439] mp-1193368       Nb4CoSe8         REVIEW-FLIP  Tc-analogy    4.4 K
+[69/439] mp-1193389       Co(SbO2)2        REVIEW-FLIP  Tc-analogy   -1.4 K
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+[74/439] mp-1200585       Ho2Fe3Si5        AM           Tc-analogy    3.5 K
+[80/439] mp-1207404       Zr5CoSb3         REVIEW-FLIP  Tc-analogy    3.2 K
+[82/439] mp-1208126       Tm12Al7Si        REVIEW-FLIP  Tc-analogy    4.4 K
+[88/439] mp-1209054       Sm12(OsC3)5      REVIEW-FLIP  Tc-analogy    4.4 K
+[92/439] mp-1209971       Pr12(OsC3)5      REVIEW-FLIP  Tc-analogy    4.5 K
+[93/439] mp-1210077       Nd12(OsC3)5      REVIEW-FLIP  Tc-analogy    4.6 K
+[97/439] mp-1212880       Er3Fe2Si3        REVIEW-FLIP  Tc-analogy    9.3 K
+[141/439] mp-1221361       Mn5SnO8          REVIEW-FLIP  Tc-analogy    9.3 K
+[158/439] mp-1226075       CoTeO4           REVIEW-FLIP  Tc-analogy   -1.0 K
+[184/439] mp-1245963       Ba(FeN)2         AM           Tc-analogy   18.9 K
+[186/439] mp-1264781       Ca2AlCuO5        REVIEW-FLIP  Tc-analogy   38.8 K
+[195/439] mp-1274535       Mn2CuO4          REVIEW-FLIP  Tc-analogy   78.3 K
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+spglib: ssm_get_exact_positions failed.
+spglib: get_bravais_exact_positions_and_lattice failed.
+[200/439] ...
+[207/439] mp-1296431       Ca2VWO6          REVIEW-FLIP  Tc-analogy   14.6 K
+[213/439] mp-1368630       V2Zn3O7          REVIEW-FLIP  Tc-analogy   11.3 K
+[214/439] mp-1377823       Ca3Cr2O7         REVIEW-FLIP  Tc-analogy   20.8 K
+[218/439] mp-17113         Sm2Ru2O7         REVIEW-FLIP  Tc-analogy    4.1 K
+[221/439] mp-18265         Y2Mo2O7          AM           Tc-analogy    8.2 K
+[222/439] mp-18442         Mn4SiO7          REVIEW-FLIP  Tc-analogy    9.1 K
+[227/439] mp-18869         Na4Mn2O5         REVIEW-FLIP  Tc-analogy   15.8 K
+[233/439] mp-19050         Ca2MnO4          REVIEW-FLIP  Tc-analogy   18.6 K
+[234/439] mp-19092         CoWO4            REVIEW-FLIP  Tc-analogy    5.0 K
+[239/439] mp-19350         LaVO3            REVIEW-FLIP  Tc-analogy   11.3 K
+[243/439] mp-19930         Nd2Ru2O7         REVIEW-FLIP  Tc-analogy   11.2 K
+[244/439] mp-19976         Ce4S3O4          REVIEW-FLIP  Tc-analogy    8.0 K
+[250/439] mp-21874         La2NiO4          AM           Tc-analogy    3.9 K
+[259/439] mp-27359         CsScCl3          REVIEW-FLIP  Tc-analogy   18.1 K
+[261/439] mp-2750490       Fe2Re3           REVIEW-FLIP  Tc-analogy    7.4 K
+[268/439] mp-31237         CuAsF7           REVIEW-FLIP  Tc-analogy   46.8 K
+[269/439] mp-31515         Sr2CoReO6        REVIEW-FLIP  Tc-analogy    7.8 K
+[271/439] mp-31770         Fe3O4            REVIEW-FLIP  Tc-analogy   15.5 K
+[273/439] mp-3787          RbFe2S3          REVIEW-FLIP  Tc-analogy   13.8 K
+[283/439] mp-505552        Cd2Ru2O7         REVIEW-FLIP  Tc-analogy   -2.1 K
+[285/439] mp-505801        Eu2Ti2O7         REVIEW-FLIP  Tc-analogy   12.0 K
+[292/439] mp-541512        Ba3Cr2WO9        REVIEW-FLIP  Tc-analogy    4.4 K
+[293/439] mp-541557        Lu2Fe3Si5        REVIEW-FLIP  Tc-analogy    4.8 K
+[294/439] mp-541859        Tb12(OsC3)5      REVIEW-FLIP  Tc-analogy    4.6 K
+[298/439] mp-552651        La2Fe2Se2O3      REVIEW-FLIP  Tc-analogy   19.5 K
+[300/439] mp-556338        RbMnPO4          REVIEW-FLIP  Tc-analogy    9.1 K
+[310/439] mp-559975        SrMnO3           AM           Tc-analogy   -0.8 K
+[311/439] mp-560165        Cu(BiO2)2        AM           Tc-analogy    0.2 K
+[313/439] mp-561426        Ba2CrO4          AM           Tc-analogy    7.1 K
+[322/439] mp-630641        Sr2FeClO3        REVIEW-FLIP  Tc-analogy   17.4 K
+[324/439] mp-643741        Sr2YAlCu2O7      REVIEW-FLIP  Tc-analogy   29.0 K
+[327/439] mp-653855        Pr3PtI3          REVIEW-FLIP  Tc-analogy    2.0 K
+[334/439] mp-675006        FeOF             AM           Tc-analogy   13.0 K
+[335/439] mp-680269        Er2Fe3Si5        AM           Tc-analogy    2.4 K
+[342/439] mp-752807        Li(CoO2)2        REVIEW-FLIP  Tc-analogy   13.4 K
+[346/439] mp-753138        Fe2OF3           REVIEW-FLIP  Tc-analogy   14.0 K
+[354/439] mp-754053        FeOF             AM           Tc-analogy   13.0 K
+[379/439] mp-755956        LiNi3O4          REVIEW-FLIP  Tc-analogy   16.5 K
+[392/439] mp-757742        Li2Fe(CoO3)2     REVIEW-FLIP  Tc-analogy   14.9 K
+[393/439] mp-758713        Li3Mn2P2O8F3     REVIEW-FLIP  Tc-analogy    3.4 K
+[396/439] mp-759543        FeOF             REVIEW-FLIP  Tc-analogy   13.0 K
+[400/439] mp-761415        CuNi3O4          REVIEW-FLIP  Tc-analogy   69.7 K
+[413/439] mp-772597        Li2CuNiO4        REVIEW-FLIP  Tc-analogy   60.5 K
+[424/439] mp-776054        Li2MnCuO4        REVIEW-FLIP  Tc-analogy   69.4 K
+[430/439] mp-850194        TiNiO3           REVIEW-FLIP  Tc-analogy   10.9 K
+
+Summary:
+  AFM            299
+  REVIEW-FLIP    58
+  ERROR          55
+  SKIP-UNCOMP    15
+  AM             12
+
+Wrote /Users/a404/Documents/materialsScience/supercon/mp_metallic_am/results.csv

@@ -1,0 +1,55 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'amag'
+  outdir = './out'
+  pseudo_dir = '/Users/a404/Documents/materialsScience/altermag/pseudos'
+  tprnfor = .true.
+/
+&SYSTEM
+  ibrav = 0
+  nat = 12
+  ntyp = 4
+  ecutwfc = 50.0
+  ecutrho = 400.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.01
+  nspin = 2
+  starting_magnetization(1) = 0.00
+  starting_magnetization(2) = 0.50
+  starting_magnetization(3) = -0.50
+  starting_magnetization(4) = 0.00
+/
+&ELECTRONS
+  conv_thr = 1.0d-7
+  mixing_beta = 0.2
+  mixing_mode = 'local-TF'
+  electron_maxstep = 250
+/
+ATOMIC_SPECIES
+  F  18.9984  F.upf
+  Fe1  55.8450  Fe.upf
+  Fe2  55.8450  Fe.upf
+  O  15.9994  O.upf
+CELL_PARAMETERS angstrom
+  0.0000000000 4.7889630000 0.0000430000
+  0.0000000000 0.0000430000 4.7889630000
+  6.0203480000 0.0000000000 0.0000000000
+ATOMIC_POSITIONS crystal
+  Fe2  0.4585570000 0.5414430000 0.2500000000
+  Fe2  0.5414430000 0.4585570000 0.7500000000
+  Fe1  0.0414560000 0.0414560000 0.0000000000
+  Fe1  0.9585440000 0.9585440000 0.5000000000
+  O  0.1798500000 0.8201500000 0.2500000000
+  O  0.6798480000 0.6798480000 0.5000000000
+  O  0.8201500000 0.1798500000 0.7500000000
+  O  0.3201520000 0.3201520000 0.0000000000
+  F  0.7957570000 0.2042430000 0.2500000000
+  F  0.2957640000 0.2957640000 0.5000000000
+  F  0.2042430000 0.7957570000 0.7500000000
+  F  0.7042360000 0.7042360000 0.0000000000
+K_POINTS automatic
+  4 4 3 0 0 0
+HUBBARD (ortho-atomic)
+U Fe1-3d 4.5
+U Fe2-3d 4.5

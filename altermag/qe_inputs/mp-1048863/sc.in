@@ -1,0 +1,73 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'amag'
+  outdir = './out_c'
+  pseudo_dir = '/Users/a404/Documents/materialsScience/altermag/pseudos'
+  tprnfor = .true.
+/
+&SYSTEM
+  ibrav = 0
+  nat = 20
+  ntyp = 7
+  ecutwfc = 45.0
+  ecutrho = 360.0
+  occupations = 'smearing'
+  smearing = 'mv'
+  degauss = 0.03
+  nspin = 2
+  constrained_magnetization = 'atomic'
+  lambda = 0.5
+  starting_magnetization(1) = 0.00
+  starting_magnetization(2) = 0.50
+  starting_magnetization(3) = -0.50
+  starting_magnetization(4) = 0.00
+  starting_magnetization(5) = 0.50
+  starting_magnetization(6) = -0.50
+  starting_magnetization(7) = 0.00
+/
+&ELECTRONS
+  conv_thr = 5.0d-4
+  mixing_beta = 0.1
+  mixing_ndim = 20
+  electron_maxstep = 400
+/
+ATOMIC_SPECIES
+  Ca  40.0780  Ca.upf
+  Cr1  51.9961  Cr.upf
+  Cr2  51.9961  Cr.upf
+  La  138.9055  La.upf
+  Mo1  95.9400  Mo.upf
+  Mo2  95.9400  Mo.upf
+  O  15.9994  O.upf
+CELL_PARAMETERS angstrom
+  5.5376420000 0.0103450000 -0.0044140000
+  0.0107050000 5.7390070000 0.0022490000
+  -0.0174000000 0.0031210000 7.8519490000
+ATOMIC_POSITIONS crystal
+  Ca  0.4861360000 0.4520670000 0.7507250000
+  Ca  0.9848860000 0.0483980000 0.2507290000
+  La  0.0137720000 0.9581770000 0.7501190000
+  La  0.5126310000 0.5413990000 0.2501900000
+  Cr2  0.0003430000 0.5005220000 0.9988800000
+  Cr1  0.5006490000 0.9992610000 0.4992370000
+  Mo2  0.9999370000 0.4978550000 0.5005220000
+  Mo1  0.4995800000 0.0021590000 0.0009000000
+  O  0.0875530000 0.4681990000 0.2492440000
+  O  0.5883000000 0.0326170000 0.7495390000
+  O  0.2080570000 0.2150590000 0.9532160000
+  O  0.7074990000 0.2840440000 0.4528840000
+  O  0.2112220000 0.2016600000 0.5459560000
+  O  0.7122930000 0.2985010000 0.0457740000
+  O  0.2919170000 0.7013550000 0.9525540000
+  O  0.7935470000 0.7984620000 0.4527180000
+  O  0.2959570000 0.7087440000 0.5489300000
+  O  0.7954420000 0.7924480000 0.0480750000
+  O  0.4050160000 0.9702560000 0.2501390000
+  O  0.9052590000 0.5288170000 0.7496680000
+K_POINTS automatic
+  2 2 2 0 0 0
+HUBBARD (atomic)
+U Cr1-3d 3.5
+U Cr2-3d 3.5
+U Mo1-4d 2.5
+U Mo2-4d 2.5

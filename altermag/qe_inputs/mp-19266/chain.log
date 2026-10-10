@@ -1,0 +1,6 @@
+[14:04:05] SCF start
+[14:09:04] SCF converged.      total magnetization       =     0.00 Bohr mag/cell
+density saved
+[14:09:04] bands start
+[14:34:12] bands DONE
+[14:34:12] analysis done -> qe_verdict.txt

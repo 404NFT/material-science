@@ -1,0 +1,5 @@
+&BANDS
+  prefix = 'amag'
+  outdir = './out'
+  filband = 'bands.dat'
+/

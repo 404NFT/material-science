@@ -1,0 +1,13 @@
+Sr2FeWO6 (mp-19266) — DFT+U altermagnet confirmation (native QE 7.3.1, M1 Max)
+First-pass: PBE+U (Fe 3d U=4.5 eV), ecut 45 Ry, 2x2x2 k, conv_thr 2e-4 Ry.
+
+  E_F = 10.74 eV, 120 k-points, LSDA (160 bands/spin)
+  net magnetization        = 0.00 Bohr/cell   (compensated AFM) ✓
+  max spin splitting nr E_F = 125 meV          (>= 50 meV threshold) ✓
+  mean over k-points        = 61 meV
+  k with split > 26 meV     = 100%
+  k-dependence (per-k)      = 31 .. 125 meV    (momentum-dependent) ✓
+
+  VERDICT: ALTERMAGNET — k-dependent spin splitting >> 50 meV at zero net moment.
+  This is a NOVEL candidate (not in Gao et al. NSR 2025). First-pass magnitude;
+  refine with tighter conv_thr / denser k / higher ecut for publication values.

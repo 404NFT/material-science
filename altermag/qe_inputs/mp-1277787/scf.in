@@ -1,0 +1,69 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'amag'
+  outdir = './out'
+  pseudo_dir = '/Users/a404/Documents/materialsScience/altermag/pseudos'
+  tprnfor = .true.
+/
+&SYSTEM
+  ibrav = 0
+  nat = 20
+  ntyp = 6
+  ecutwfc = 45.0
+  ecutrho = 360.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.01
+  nspin = 2
+  starting_magnetization(1) = 0.00
+  starting_magnetization(2) = 0.50
+  starting_magnetization(3) = -0.50
+  starting_magnetization(4) = 0.50
+  starting_magnetization(5) = -0.50
+  starting_magnetization(6) = 0.00
+/
+&ELECTRONS
+  conv_thr = 2.0d-4
+  mixing_beta = 0.1
+  mixing_mode = 'local-TF'
+  electron_maxstep = 300
+/
+ATOMIC_SPECIES
+  Ba  137.3270  Ba.upf
+  Fe1  55.8450  Fe.upf
+  Fe2  55.8450  Fe.upf
+  Mo1  95.9400  Mo.upf
+  Mo2  95.9400  Mo.upf
+  O  15.9994  O.upf
+CELL_PARAMETERS angstrom
+  -1.6731180000 4.7361880000 -2.8999200000
+  3.3415200000 4.7237570000 5.7885630000
+  5.0227750000 0.0007470000 -2.8996590000
+ATOMIC_POSITIONS crystal
+  Ba  0.0002820000 0.2499630000 0.4994360000
+  Ba  0.4996650000 0.7500020000 0.0005270000
+  Ba  0.5003530000 0.2500000000 0.9994610000
+  Ba  0.9997330000 0.7500390000 0.5005680000
+  Fe2  0.5000310000 0.5000080000 0.4999710000
+  Fe1  0.9998950000 0.9999830000 0.0000690000
+  Mo2  0.0000010000 0.5000000000 0.9999990000
+  Mo1  0.5000340000 0.0000030000 0.5000140000
+  O  0.5003870000 0.2503550000 0.4990400000
+  O  0.9997200000 0.7504000000 0.0006750000
+  O  0.0002840000 0.2495990000 0.9993290000
+  O  0.4996160000 0.7496470000 0.5009500000
+  O  0.7375550000 0.0000360000 0.7377260000
+  O  0.2513080000 0.5001710000 0.2516420000
+  O  0.7514140000 0.0001130000 0.2484660000
+  O  0.2377420000 0.4995050000 0.7624230000
+  O  0.2624370000 0.9999600000 0.2622590000
+  O  0.7486970000 0.4998310000 0.7483470000
+  O  0.2485900000 0.9998880000 0.7515300000
+  O  0.7622570000 0.5004960000 0.2375660000
+K_POINTS automatic
+  2 2 2 0 0 0
+HUBBARD (ortho-atomic)
+U Fe1-3d 4.5
+U Fe2-3d 4.5
+U Mo1-4d 2.5
+U Mo2-4d 2.5

@@ -1,0 +1,66 @@
+&CONTROL
+  calculation = 'vc-relax'
+  prefix = 'cbfmo5'
+  outdir = './out'
+  pseudo_dir = '/Users/a404/Documents/materialsScience/altermag/pseudos'
+  tprnfor = .true.
+  tstress = .true.
+  forc_conv_thr = 1.0d-3
+  etot_conv_thr = 1.0d-5
+  nstep = 120
+/
+&SYSTEM
+  ibrav = 0
+  nat = 10
+  ntyp = 5
+  ecutwfc = 60.0
+  ecutrho = 480.0
+  occupations = 'smearing'
+  smearing = 'mv'
+  degauss = 0.015
+  nspin = 2
+  starting_magnetization(1) = 0.00
+  starting_magnetization(2) = 0.00
+  starting_magnetization(3) = 0.70
+  starting_magnetization(4) = -0.50
+  starting_magnetization(5) = 0.00
+/
+&ELECTRONS
+  conv_thr = 1.0d-7
+  mixing_mode = 'local-TF'
+  mixing_beta = 0.2
+  mixing_ndim = 12
+  electron_maxstep = 300
+/
+&IONS
+/
+&CELL
+  cell_dofree = 'all'
+  press_conv_thr = 0.5
+/
+ATOMIC_SPECIES
+  Ca  40.0780  Ca.upf
+  Ba  137.3270  Ba.upf
+  Fe  55.8450  Fe.upf
+  Mo  95.9400  Mo.upf
+  O  15.9994  O.upf
+CELL_PARAMETERS angstrom
+  -1.800000 2.025000 10.775000
+  1.800000 -2.025000 10.775000
+  1.800000 2.025000 -10.775000
+ATOMIC_POSITIONS angstrom
+  O 0.000000 0.000000 0.000000
+  Ca 1.800000 2.025000 0.000000
+  Fe 0.000000 0.000000 2.000000
+  Mo 0.000000 0.000000 -2.000000
+  O 0.000000 2.025000 2.000000
+  O 0.000000 2.025000 -2.000000
+  O 0.000000 0.000000 4.000000
+  O 0.000000 0.000000 -4.000000
+  Ba 1.800000 2.025000 4.000000
+  Ba 1.800000 2.025000 -4.000000
+K_POINTS automatic
+  7 7 7 0 0 0
+HUBBARD (ortho-atomic)
+U Fe-3d 4.5
+U Mo-4d 2.5

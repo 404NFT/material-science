@@ -1,0 +1,63 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'amag'
+  outdir = './out'
+  pseudo_dir = '/Users/a404/Documents/materialsScience/altermag/pseudos'
+  tprnfor = .true.
+/
+&SYSTEM
+  ibrav = 0
+  nat = 16
+  ntyp = 5
+  ecutwfc = 50.0
+  ecutrho = 400.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.01
+  nspin = 2
+  starting_magnetization(1) = 0.50
+  starting_magnetization(2) = -0.50
+  starting_magnetization(3) = 0.50
+  starting_magnetization(4) = -0.50
+  starting_magnetization(5) = 0.00
+/
+&ELECTRONS
+  conv_thr = 1.0d-7
+  mixing_beta = 0.2
+  mixing_mode = 'local-TF'
+  electron_maxstep = 250
+/
+ATOMIC_SPECIES
+  Cu1  63.5460  Cu.upf
+  Cu2  63.5460  Cu.upf
+  Ni1  58.6934  Ni.upf
+  Ni2  58.6934  Ni.upf
+  O  15.9994  O.upf
+CELL_PARAMETERS angstrom
+  -0.0000440000 -4.1457410000 -4.1458630000
+  -0.0000320000 -4.1456210000 4.1456000000
+  -4.4372690000 -4.1457000000 -0.0001320000
+ATOMIC_POSITIONS crystal
+  Cu1  0.9999830000 0.4999810000 0.0000300000
+  Cu2  0.4999800000 0.4999990000 0.9999880000
+  Ni2  0.5000020000 0.9999970000 0.0000000000
+  Ni2  0.0000100000 0.0000030000 0.4999970000
+  Ni2  0.5000050000 0.0000070000 0.4999930000
+  Ni1  0.9999960000 0.0000000000 0.9999990000
+  Ni1  0.0000100000 0.5000070000 0.4999950000
+  Ni1  0.5000110000 0.5000040000 0.4999970000
+  O  0.7275230000 0.2274340000 0.5449610000
+  O  0.2276880000 0.2277660000 0.5446320000
+  O  0.2724850000 0.7725660000 0.4550380000
+  O  0.7723190000 0.7722390000 0.4553680000
+  O  0.7503160000 0.2634140000 0.9999690000
+  O  0.2497640000 0.2634030000 0.9999720000
+  O  0.7502310000 0.7365900000 0.0000290000
+  O  0.2496780000 0.7365900000 0.0000320000
+K_POINTS automatic
+  4 4 5 0 0 0
+HUBBARD (ortho-atomic)
+U Cu1-3d 6.0
+U Cu2-3d 6.0
+U Ni1-3d 5.0
+U Ni2-3d 5.0

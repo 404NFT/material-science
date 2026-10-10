@@ -1,0 +1,15 @@
+Ca.upf
+Co.upf
+Cs.upf
+Cu.upf
+F.upf
+La.upf
+Mg.upf
+Mn.upf
+Mo.upf
+O.upf
+Sr.upf
+Ta.upf
+V.upf
+Y.upf
+Zr.upf

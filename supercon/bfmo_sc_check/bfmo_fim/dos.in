@@ -1,0 +1,8 @@
+&DOS
+  prefix = 'bfmo_fim'
+  outdir = './out'
+  fildos = 'bfmo_fim.dos'
+  DeltaE = 0.005
+  Emin = -10.0
+  Emax = 25.0
+/

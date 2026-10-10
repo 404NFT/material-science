@@ -1,0 +1,59 @@
+&CONTROL
+  calculation = 'scf'
+  prefix = 'amag'
+  outdir = './out'
+  pseudo_dir = '/Users/a404/Documents/materialsScience/altermag/pseudos'
+  tprnfor = .true.
+/
+&SYSTEM
+  ibrav = 0
+  nat = 14
+  ntyp = 5
+  ecutwfc = 50.0
+  ecutrho = 400.0
+  occupations = 'smearing'
+  smearing = 'gaussian'
+  degauss = 0.01
+  nspin = 2
+  starting_magnetization(1) = 0.00
+  starting_magnetization(2) = 0.50
+  starting_magnetization(3) = -0.50
+  starting_magnetization(4) = 0.00
+  starting_magnetization(5) = 0.00
+/
+&ELECTRONS
+  conv_thr = 1.0d-7
+  mixing_beta = 0.2
+  mixing_mode = 'local-TF'
+  electron_maxstep = 250
+/
+ATOMIC_SPECIES
+  Cu  63.5460  Cu.upf
+  Mn1  54.9380  Mn.upf
+  Mn2  54.9380  Mn.upf
+  O  15.9994  O.upf
+  V  50.9415  V.upf
+CELL_PARAMETERS angstrom
+  5.3353540000 0.0387230000 -0.0000100000
+  -2.0819190000 4.9125330000 0.0000180000
+  -0.0000120000 0.0000180000 6.4383690000
+ATOMIC_POSITIONS crystal
+  Mn2  0.0000030000 0.0000040000 0.4999980000
+  Mn1  0.9999980000 0.0000000000 0.9999980000
+  V  0.3609330000 0.6390660000 0.7500020000
+  V  0.6390650000 0.3609330000 0.2499990000
+  Cu  0.6762850000 0.3237200000 0.7499990000
+  Cu  0.3237160000 0.6762850000 0.2499990000
+  O  0.2471060000 0.7528920000 0.9704280000
+  O  0.7528930000 0.2471030000 0.4704280000
+  O  0.7528950000 0.2471050000 0.0295750000
+  O  0.2471060000 0.7528950000 0.5295720000
+  O  0.2335280000 0.2744470000 0.7500020000
+  O  0.7664730000 0.7255510000 0.2500000000
+  O  0.7255520000 0.7664720000 0.7500020000
+  O  0.2744480000 0.2335270000 0.2499990000
+K_POINTS automatic
+  4 4 3 0 0 0
+HUBBARD (ortho-atomic)
+U Mn1-3d 4.0
+U Mn2-3d 4.0

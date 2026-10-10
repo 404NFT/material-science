@@ -1,0 +1,146 @@
+#\#CIF_2.0
+# Created by the Bilbao Crystallographic Server
+# http://www.cryst.ehu.es
+# Date: 03/29/2026
+
+data_5yOhtAoR
+_audit_creation_date            2026-03-29
+_audit_creation_method          "Bilbao Crystallographic Server"
+
+_chemical_name_systematic
+;
+;
+_chemical_name_common                    ?
+_chemical_formula_moiety                 ?
+_chemical_formula_structural             ?
+_chemical_formula_analytical             ?
+_chemical_formula_iupac                  ?
+_chemical_formula_sum                    "Ho1 Tm4"
+_chemical_formula_weight                 ?
+_chemical_melting_point                  ?
+_chemical_compound_source                ?
+_chemical_absolute_configuration         ?
+
+
+_citation_journal_abbrev        "Journal of the Physical Society of Japan"
+_citation_journal_volume        78
+_citation_page_first            .
+_citation_page_last             .
+_citation_article_id            024707
+_citation_year                  2009
+_citation_DOI                   10.1143/JPSJ.78.024707
+
+loop_
+_citation_author_name
+"Shinji MICHIMURA"
+"Akira SHIGEKAWA"
+"Fumitoshi IGA"
+"Toshiro TAKABATAKE"
+"Kenji OHOYAMA"
+
+_temperature_position_structure         298
+_temperature_atom_positions             .
+_temperature_non-magn_atom_positions    .
+_temperature_cell_parameters            .
+
+_atomic_positions_source_database_code_ICSD  182659
+_atomic_positions_source_other               .
+
+_transition_temperature     10
+_experiment_temperature     3
+
+loop_
+_irrep_id
+_irrep_dimension
+_irrep_small_dimension
+_irrep_direction_type
+_irrep_action
+_irrep_modes_number
+_irrep_presence
+mGM2+ 1 1 . primary 1 .
+
+_exptl_crystal_magnetic_properties_details
+;
+NPD
+Positional structure is not provided. Here a model at 293K from the ICSD is used (with the Ho1 position corrected).
+Magnitude of the Ho spin is not reported. Here the Ho moment is set arbitrariky to one.
+;
+
+_active_magnetic_irreps_details
+;
+1k magnetic structure
+1-dim irrep 
+;
+
+_parent_space_group.name_H-M_alt  'P 4/m b m'
+_parent_space_group.IT_number                       127
+_parent_space_group.transform_Pp_abc  'a,b,c;0,0,0'
+
+loop_
+_parent_propagation_vector.id
+_parent_propagation_vector.kxkykz
+k1 [0 0 0]
+
+_parent_space_group.child_transform_Pp_abc  'a,b,c;0,0,0'
+_space_group_magn.transform_BNS_Pp_abc  'a,b,c;0,0,0'
+
+
+_space_group_magn.number_BNS  127.391
+_space_group_magn.name_BNS  "P 4'/m b m' "
+_space_group_magn.point_group_name  "4'/mm'm"
+_space_group_magn.point_group_number  "15.4.56"
+_cell_length_a                 7.0910
+_cell_length_b                 7.0910
+_cell_length_c                 4.0086
+_cell_angle_alpha              90.00
+_cell_angle_beta               90.00
+_cell_angle_gamma              90.00
+
+loop_
+_space_group_symop_magn_operation.id
+_space_group_symop_magn_operation.xyz
+1 x,y,z,+1 
+2 x+1/2,-y+1/2,-z,+1 
+3 -x+1/2,y+1/2,-z,+1 
+4 -x,-y,z,+1 
+5 -x,-y,-z,+1 
+6 -x+1/2,y+1/2,z,+1 
+7 x+1/2,-y+1/2,z,+1 
+8 x,y,-z,+1 
+9 -y,x,z,-1 
+10 y,-x,z,-1 
+11 y+1/2,x+1/2,-z,-1 
+12 -y+1/2,-x+1/2,-z,-1 
+13 y,-x,-z,-1 
+14 -y,x,-z,-1 
+15 -y+1/2,-x+1/2,z,-1 
+16 y+1/2,x+1/2,z,-1 
+
+loop_
+_space_group_symop_magn_centering.id
+_space_group_symop_magn_centering.xyz
+1 x,y,z,+1 
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+Ho1 Ho 0.31803 0.81803 0.00000 1
+Tm1 Tm 0.00000 0.00000 0.2062 1
+Tm2 Tm 0.0859 0.5859 0.50000 1
+Tm3 Tm 0.1773 0.0391 0.50000 1
+
+loop_
+_atom_site_moment.label
+_atom_site_moment.crystalaxis_x
+_atom_site_moment.crystalaxis_y
+_atom_site_moment.crystalaxis_z
+_atom_site_moment.symmform
+_atom_site_moment.magnitude
+_atom_site_moment.spherical_azimuthal
+_atom_site_moment.spherical_polar
+Ho1 0.0 0.0 1. 0,0,mz ? ? ?
+

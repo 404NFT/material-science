@@ -1,0 +1,15 @@
+candidate     net_mom  max(meV)    per-k range    %k  verdict
+mp-1048863      +0.01       210    12-210     52%  ALTERMAGNET
+mp-1272506      -0.00      1888  1656-1888   100%  no-nodes (comp-FiM?)
+mp-1274449      -0.01       281    11-281     36%  ALTERMAGNET
+mp-1277241      +0.00        30    24-30      70%  no-splitting
+mp-1277787      -0.00       275     3-275     48%  ALTERMAGNET
+mp-1580697      -0.83       758   390-758    100%  SPLIT-but-FM?
+mp-19266        +0.00       116    11-116     68%  ALTERMAGNET
+mp-2240166      -0.00       254     5-254     17%  ALTERMAGNET
+mp-2674749      +0.01       405     4-405     44%  ALTERMAGNET
+mp-684727       +1.70      1168   818-1168   100%  SPLIT-but-FM?
+mp-756665       -0.00        19     6-19       0%  no-splitting
+mp-759163       +0.00        85     1-85      28%  ALTERMAGNET
+
+7 confirmed altermagnet(s). Wrote qe_results.csv

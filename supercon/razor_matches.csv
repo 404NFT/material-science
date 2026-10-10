@@ -1,0 +1,10 @@
+material_id,formula,spacegroup,n_sites,e_hull,net_moment,AM@1e-05,AM@0.0001,AM@0.001,AM@0.01,verdict,Tc_analogy_K,known_SC_system,nf,magndata
+mp-1105546,LaFe4(CuO4)3,Immm (71),20,0.0,0.0,err:RuntimeError,AM,AM,AM,AM,72.69,False,LaFe4(CuO4)3,1.846
+mp-1193368,Nb4CoSe8,P6_3/mmc (194),26,0.0,0.0,AFM,AFM,err:RuntimeError,AM,REVIEW-FLIP,4.41,False,Nb4CoSe8,0.1112
+mp-19050,Ca2MnO4,I4_1/acd (142),28,0.0073,0.0,AFM,AFM,AM,AM,REVIEW-FLIP,18.64,False,Ca2MnO4,0.211
+mp-21874,La2NiO4,P4_2/ncm (138),28,0.0482,0.0,AM,AM,AM,AM,AM,3.94,False,La2NiO4,"0.45,1.42"
+mp-552651,La2Fe2Se2O3,I4/mmm (139),9,0.096,0.0,AFM,AM,AM,AM,REVIEW-FLIP,19.49,False,La2Fe2Se2O3,"1.58,2.49"
+mp-559975,SrMnO3,C222_1 (20),20,0.0,0.0,AM,AM,AM,AM,AM,-0.77,False,SrMnO3,"0.1018,0.1019"
+mp-560165,Cu(BiO2)2,I4cm (108),14,0.0883,0.0,err:RuntimeError,err:RuntimeError,err:RuntimeError,AM,AM,0.22,False,Cu(BiO2)2,"0.348,0.694,0.695"
+mp-630641,Sr2FeClO3,P4/nmm (129),28,0.032,0.0,AFM,err:RuntimeError,AM,AFM,REVIEW-FLIP,17.38,False,Sr2FeClO3,"1.380,1.844,1.845"
+mp-850194,TiNiO3,R3c (161),10,0.014,0.0,AFM,AM,AM,AM,REVIEW-FLIP,10.87,False,TiNiO3,"1.579,1.580"
